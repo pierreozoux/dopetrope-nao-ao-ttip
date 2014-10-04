@@ -5,7 +5,7 @@
             <div class="8u">
               <section>
                 <header>
-                  <h2>Blandit nisl adipiscing</h2>
+                  <h2>Eventos</h2>
                 </header>
                 <ul class="dates">
                   <!– WP LOOP STARTS/ENDS –>
@@ -24,16 +24,14 @@
             <div class="4u">
               <section>
                 <header>
-                  <h2>What's this all about?</h2>
+                  <h2>Ajuda a informar</h2>
                 </header>
-                <a href="#" class="image featured"><img src="<?php bloginfo('template_directory'); ?>/images/pic10.jpg" alt="" /></a>
+                <a href="<?php bloginfo('template_directory'); ?>/flyers.zip" class="image featured"><img src="<?php bloginfo('template_directory'); ?>/images/telechflyer.jpg" alt="" /></a>
                 <p>
-                  This is <strong>Dopetrope</strong> a free, fully responsive HTML5 site template by 
-                  <a href="http://n33.co">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a> It's released for free under
-                  the <a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for any personal or commercial project &ndash; just don't forget to credit us!
+                  
                 </p>
                 <footer>
-                  <a href="#" class="button">Find out more</a>
+                  <a href="<?php bloginfo('template_directory'); ?>/flyers.zip" class="button">Descarga os flyers</a>
                 </footer>
               </section>
             </div>
@@ -42,30 +40,34 @@
             <div class="4u">
               <section>
                 <header>
-                  <h2>Tempus consequat</h2>
+                  <h2>não estamos sozinhos!</h2>
                 </header>
                 <ul class="divided">
-                  <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-                  <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-                  <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-                  <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-                  <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-                  <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+                  <li><a href="http://stop-ttip.org/fr/">http://stop-ttip.org/fr/</a></li>
+                  <li><a href="http://www.d19-20.be/en/ttip/">Aliança D19-20</a></li>
+                  <li><a href="http://www.altersummit.eu/?lang=en">Alter Summit</a></li>
+                  <li><a href="http://www.quercus.pt/parceriatransatlantica-o-que-e">Quercus</a></li>
+                  <li><a href="http://parceriatransatlantica.wordpress.com/sites/www.attac-netzwerk.de/index.php?id=12920">ATTAC</a></li>
+                  <li><a href="http://www.bilaterals.org/?-TTIP-&lang=en">Bilaterals</a></li>
+                  <li><a href="http://corporateeurope.org/tags/ttip>">Corporate Europe Observatory
+                  <li><a href=""></a></li>
                 </ul>
               </section>
             </div>
             <div class="4u">
               <section>
                 <header>
-                  <h2>Ipsum et phasellus</h2>
+                  <h2>é ainda mais</h2>
                 </header>
                 <ul class="divided">
-                  <li><a href="#">Lorem ipsum dolor sit amet sit veroeros</a></li>
-                  <li><a href="#">Sed et blandit consequat sed tlorem blandit</a></li>
-                  <li><a href="#">Adipiscing feugiat phasellus sed tempus</a></li>
-                  <li><a href="#">Hendrerit tortor vitae mattis tempor sapien</a></li>
-                  <li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
-                  <li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li>
+                  <li><a href="http://occupylondon.org.uk/stop-ttip/>">Grupo de Trabalho TTIP_Occupy London</a></li>
+                  <li><a href="http://gasnaturalnao.wordpress.com/>">Gasnaturalnão</a></li>
+                  <li><a href="http://www.s2bnetwork.org/?id=112>">Seattle to Brussels Network</a></li>
+                  <li><a href="https://www.laquadrature.net/en/TAFTA>">La Quadrature du Net (inglês)</a></li>
+                  <li><a href="http://www.ttip2014.eu/home.html>">TTIP:Beware what lies beneath</a></li>
+                  <li><a href="http://stoptafta.wordpress.com/>">Non au Traité Transatlantique</a></li>
+                  <li><a href="http://www.citizen.org/tafta>">Public Citizen</a></li>
+                  <li><a href="http://www.tni.org/category/issues-workarea/trade-investment/eu-trade-policy-ftas>">Transnational Institute</a></li>
                 </ul>
               </section>
             </div>

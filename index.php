@@ -2,8 +2,8 @@
 					<!-- Banner -->
 						<section id="banner">
 							<header>
-								<h2>Howdy. This is Dopetrope.</h2>
-								<p>A responsive template by HTML5 UP</p>
+								<h2>Não ao Tratado Transatlântico</h2>
+								<p>Plataforma portuguesa para análise crítica ao TTIP</p>
 							</header>
 						</section>
 					<!-- Intro -->
@@ -11,29 +11,30 @@
 							<div class="row">
 								<div class="4u">
 									<section class="first">
-										<i class="icon featured fa-cog"></i>
+										<i class="icon featured fa-users"></i>
 										<header>
-											<h2>Ipsum consequat</h2>
+											<h2>Manifesto</h2>
 										</header>
-										<p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+										<p>Declaração conjunta da sociedade civil Portuguesa, em ação
+> contra a ameaça do TTIP</p>
 									</section>
 								</div>
 								<div class="4u">
 									<section class="middle">
-										<i class="icon featured alt fa-flash"></i>
+										<i class="icon featured alt fa-file-text"></i>
 										<header>
-											<h2>Magna etiam dolor</h2>
+											<h2>O TTIP detalhado</h2>
 										</header>
-										<p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+										<p>informações e análise detalhada ao Tradado transatlântico</p>
 									</section>
 								</div>
 								<div class="4u">
 									<section class="last">
-										<i class="icon featured alt2 fa-star"></i>
+										<i class="icon featured alt2 fa-bullhorn"></i>
 										<header>
-											<h2>Tempus adipiscing</h2>
+											<h2>Manifestação</h2>
 										</header>
-										<p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+										<p>dia 11 de outubro, encontro no Rossio</p>
 									</section>
 								</div>
 							</div>
@@ -56,7 +57,7 @@
 							<!-- Portfolio -->
 								<section>
 									<header class="major">
-										<h2>Flyers</h2>
+										<h2>Os perigos do Tratado Transatlântico (TTIP)</h2>
 									</header>
 									<div class="row">
 										<!– WP LOOP STARTS/ENDS –>
@@ -70,7 +71,7 @@
 													</header>
 													<p><?php the_excerpt() ?></p>
 													<footer>
-														<a href="<?php the_permalink() ?>" class="button alt">Find out more</a>
+														<a href="<?php the_permalink() ?>" class="button alt">ler mais</a>
 													</footer>
 												</section>
 											</div>
@@ -104,7 +105,7 @@
 							<!-- Blog -->
 								<section>
 									<header class="major">
-										<h2>The Blog</h2>
+										<h2>Noticias</h2>
 									</header>
 									<div class="row">
 										<!– WP LOOP STARTS/ENDS –>
@@ -119,8 +120,7 @@
 													<p><?php the_excerpt() ?></p>
 													<footer>
 														<ul class="actions">
-															<li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">Continue Reading</a></li>
-															<li><a href="#" class="button alt icon fa-comment">33 comments</a></li>
+															<li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">saber mais</a></li>
 														</ul>
 													</footer>
 												</section>

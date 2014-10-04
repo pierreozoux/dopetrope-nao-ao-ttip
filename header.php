@@ -12,8 +12,8 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-    <script type='text/javascript' > 
-      window.theme_path = "<?php bloginfo('template_directory'); ?>"; 
+    <script type='text/javascript' >
+      window.theme_path = "<?php bloginfo('template_directory'); ?>";
     </script>
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery.dropotron.min.js"></script>
@@ -34,7 +34,6 @@
         <div id="header">
           
           <!-- Logo -->
-            <h1><a href="index.html">Dopetrope</a></h1>
-          
+            <a href="/"><img src="<?php bloginfo('template_directory'); ?>/images/logo.jpg"</a>
           <!-- Nav -->
           <?php wp_nav_menu( array( 'container_id' => 'nav', 'theme_location' => 'header-menu' ) ); ?>

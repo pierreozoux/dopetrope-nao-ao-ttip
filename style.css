@@ -624,7 +624,7 @@ Text Domain: dopetrope
 
 		ol
 		{
-		}	
+		}
 
 			ol.default
 			{
@@ -663,7 +663,7 @@ Text Domain: dopetrope
 		{
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
+			background-color: #252122;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -685,38 +685,17 @@ Text Domain: dopetrope
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #d52349;
+				border-top: solid 2em #252122;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
-
-			.icon.featured.alt
-			{
-				background-color: #252122;
-			}
-			
-				.icon.featured.alt:after
-				{
-					border-top-color: #252122;
-				}
-
-			.icon.featured.alt2
-			{
-				background-color: #827a7c;
-			}
-			
-				.icon.featured.alt2:after
-				{
-					border-top-color: #827a7c;
-				}
-							
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
 
 	#banner
 	{
-		background: #CCE8F4 url('images/pic01.jpg');
+		background: #FFF url('images/bloc.jpg');
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
@@ -817,11 +796,11 @@ Text Domain: dopetrope
 			color: #fff;
 		}
 
-		#footer-wrapper h1 a, 
-		#footer-wrapper h2 a, 
-		#footer-wrapper h3 a, 
-		#footer-wrapper h4 a, 
-		#footer-wrapper h5 a, 
+		#footer-wrapper h1 a,
+		#footer-wrapper h2 a,
+		#footer-wrapper h3 a,
+		#footer-wrapper h4 a,
+		#footer-wrapper h5 a,
 		#footer-wrapper h6 a
 		{
 			color: inherit;
@@ -859,7 +838,7 @@ Text Domain: dopetrope
 /*********************************************************************************/
 
 	#copyright
-	{	
+	{
 		text-align: center;
 	}
 	
