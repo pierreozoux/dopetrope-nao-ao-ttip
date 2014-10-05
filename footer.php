@@ -5,7 +5,7 @@
             <div class="8u footer-left">
               <section>
                 <header>
-                  <h2>Eventos</h2>
+                  <h2 id="eventos">Eventos</h2>
                 </header>
                 <ul class="dates">
                   <!– WP LOOP STARTS/ENDS –>
