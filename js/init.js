@@ -76,3 +76,23 @@ var theme_path = window.theme_path
 	});
 
 })(jQuery);
+
+/* Custom things */
+
+jQuery(document).ready(function() { 
+    // Animate contact link
+    $("a[title='contact']").click(function() {  
+            $('html, body').animate({scrollTop: $('#contact-l').offset().top}, 800);
+            return false;
+    });     
+    
+    /* Icon hover */
+    $(".icon.featured").hover(function() {  
+        $(this).addClass('iconHover');
+//        $(':after',this).addClass('iconHover');
+        }, function() {
+        $(this).removeClass('iconHover');
+    });
+    
+    
+});

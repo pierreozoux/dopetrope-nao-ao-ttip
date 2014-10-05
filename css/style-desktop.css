@@ -11,7 +11,7 @@
 	body,input,textarea,select
 	{
 		font-size: 13pt;
-		line-height: 1.75em;
+		/*line-height: 1.175em;*/
 	}
 	
 	h2
@@ -28,7 +28,7 @@
 
 		header
 		{
-			margin: 0 0 1.5em 0;
+			margin: 0;
 		}
 		
 			header > p
@@ -65,14 +65,27 @@
 			{
 				left: 1.75em;
 				top: 1.75em;
-				margin: -4.5em 0 4.25em -3.5em;
+				margin: -2.5em 0 4.25em -1.5em;
+			}
+                        .box.flyer-box .wp-post-image{
+                            margin:-4.5em 0 4.25em -3.5em;
+                        }
+                        .box.post.small-post .wp-post-image {
+                            margin:-4.5em 0 1.75em -3.5em;
+                        }
+                        .box.news .wp-post-image {
+                            margin:-4.5em 0 1.75em -3.5em;
+                        }
+			.box.post .wp-post-image
+			{
+				margin: -2.5em 0 4.25em -3.5em;
 			}
 			
 			.wp-post-image.sidebar
 			{
-				margin-top: -3em;
+                                margin: -2.8em 0 4.25em -3.5em;
 			}
-
+                        
 			.box.post
 			{
 			}
@@ -82,11 +95,16 @@
 					padding-top: 1em;
 					margin: 0 0 2em 0;
 				}
+				.box.post.small-post h2 {
+					font-size:1.5em;
+				}
 			
 				.box.post h2
 				{
 					font-size: 2.5em;
 					letter-spacing: -0.015em;
+					line-height: 40px;
+					margin-bottom:50px;
 				}
 				
 				.box.post header > p
@@ -94,6 +112,19 @@
 					margin-top: 1.25em;
 					font-size: 1.25em;
 				}
+                                .box.flyer-sidebar .wp-post-image{
+                                    top:0;
+                                }
+                                .box.flyer-sidebar a {
+                                    margin-bottom:40px;
+                                }
+                                .box.detalhe-sidebar {
+                                    padding-top: 40px;
+                                }
+                                .box.detalhe-sidebar h1{
+                                    margin-bottom:20px;
+                                }
+                                
 
 	/* Button */
 	
@@ -167,7 +198,7 @@
 
 	#header-wrapper
 	{
-		padding: 4.5em 0 4em 0;
+		padding: 1.2em 0 2.5em 0;
 	}
 
 	#main-wrapper
@@ -214,6 +245,7 @@
 
 	#nav
 	{
+            margin-top:15px;
 	}
 
 		#nav > ul
@@ -229,22 +261,23 @@
 		#nav > ul > li
 		{
 			display: inline-block;
-			font-style: italic;
 			margin: 0 0.35em 0 0.35em;
 		}
 		
 			#nav > ul > li > a
 			{
 				border-radius: 5px;
-				color: #5d5d5d;
+				color: #252122;
 				text-decoration: none;
-				padding: 0.6em 1.2em 0.6em 1.2em;
+				padding: 0.6em 1em 0.6em 1em;
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;
 				-o-transition: background-color .25s ease-in-out;
 				-ms-transition: background-color .25s ease-in-out;
 				transition: background-color .25s ease-in-out;
 				outline: 0;
+                                font-weight:bold;
+                                font-size:25px;
 			}
 
 		#nav > ul > li:hover

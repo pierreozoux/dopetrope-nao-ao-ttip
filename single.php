@@ -11,9 +11,24 @@
       <!-- Sidebar -->
         <section class="box">
           <!– WP LOOP STARTS/ENDS –>
-          <?php $my_query = new WP_Query('category_name=flyer&showposts=6'); ?>
-          <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-            <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(367, 255), array( 'class' => 'sidebar' )); ?></a>
+          <?php
+          $args = array(
+                  'post_type' => 'post',
+                  'order' => 'ASC',
+                  'posts_per_page' => 6,
+          );
+          $my_query = new WP_Query($args);
+          while ($my_query->have_posts()) : $my_query->the_post(); ?>
+            <article class="box post sidebar">
+              <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(280, 255), array( 'class' => 'sidebar' )); ?></a>
+                <header>
+                    <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                </header>
+                <div class="flyer-txt"><?php the_excerpt() ?></div>
+                <footer>
+                        <a href="<?php the_permalink() ?>" class="button alt">ler mais</a>
+                </footer>
+            </article>
           <?php endwhile; ?>
           <!– WP LOOP STARTS/ENDS –>
         </section>
@@ -24,9 +39,11 @@
     <!-- Content -->
     <?php while ( have_posts() ) : the_post(); ?>
       <article class="box post">
-        <?php the_post_thumbnail(array(783, 290)); ?>
+        <?php the_post_thumbnail(array(787, 292)); ?>
         <header>
           <h2><?php the_title(); ?></h2>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+          <div class="addthis_sharing_toolbox"></div>
         </header>
         <?php the_content(); ?>
       </article>

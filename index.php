@@ -10,40 +10,31 @@
 						<section id="intro" class="container">
 							<div class="row">
 								<div class="4u">
-									<section class="first">
-										<i class="icon featured fa-users"></i>
+									<section class="first iconSection">
+										<a href="<?php echo get_manifesto_link();?>"><i id="icon1" class="icon featured fa-certificate"></i></a>
 										<header>
-											<h2>Manifesto</h2>
+											<h2><a href="<?php echo get_manifesto_link();?>">Manifesto</a></h2>
 										</header>
-										<p>Declaração conjunta da sociedade civil Portuguesa, em ação
-> contra a ameaça do TTIP</p>
+										<p>Declaração conjunta da sociedade civil Portuguesa, em ação contra a ameaça do TTIP</p>
 									</section>
 								</div>
 								<div class="4u">
-									<section class="middle">
-										<i class="icon featured alt fa-file-text"></i>
-										<header>
-											<h2>O TTIP detalhado</h2>
+									<section class="middle iconSection">
+										<i id="icon2" class="icon featured alt fa-file-text"></i>
+										<h2><a href="<?php echo get_detalhe_link();?>">O TTIP detalhado</a></h2>
 										</header>
 										<p>informações e análise detalhada ao Tradado transatlântico</p>
 									</section>
 								</div>
 								<div class="4u">
-									<section class="last">
-										<i class="icon featured alt2 fa-bullhorn"></i>
-										<header>
-											<h2>Manifestação</h2>
+									<section class="last iconSection">
+										<i id="icon3" class="icon featured alt2 fa-bullhorn"></i>
+										<h2><a href="<?php echo get_evento_link();?>">Manifestação</a></h2>
 										</header>
 										<p>dia 11 de outubro, encontro no Rossio</p>
 									</section>
 								</div>
 							</div>
-							<footer>
-								<ul class="actions">
-									<li><a href="#" class="button big">Get Started</a></li>
-									<li><a href="#" class="button alt big">Learn More</a></li>
-								</ul>
-							</footer>
 						</section>
 				</div>
 			</div>
@@ -54,22 +45,31 @@
 				<div class="container">
 					<div class="row">
 						<div class="12u">
-							<!-- Portfolio -->
+							<!-- Flyers -->
 								<section>
 									<header class="major">
 										<h2>Os perigos do Tratado Transatlântico (TTIP)</h2>
 									</header>
 									<div class="row">
 										<!– WP LOOP STARTS/ENDS –>
-										<?php $my_query = new WP_Query('category_name=flyer&showposts=3&offset=0'); ?>
-										<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-											<div class="4u">
-												<section class="box">
+										<?php
+											$args = array(
+												'post_type' => 'page',
+												'post_parent' => get_flyer_parent_ID(),
+												'posts_per_page' => 6,
+												'orderby' => 'rand',
+											);
+											$my_query = new WP_Query($args);
+											$i=0;
+											?>
+										<?php while ($my_query->have_posts()) : $my_query->the_post(); $i++?>
+											<div class="4u <?php if($i==4) echo " clear "; ?>">
+												<section class="box flyer-box <?php if($i>=4) echo " flyer-box2 "; ?>">
 													<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(367, 255)); ?></a>
 													<header>
-														<h3><?php the_title(); ?></h3>
+														<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 													</header>
-													<p><?php the_excerpt() ?></p>
+													<div class="flyer-txt"><?php the_excerpt() ?></div>
 													<footer>
 														<a href="<?php the_permalink() ?>" class="button alt">ler mais</a>
 													</footer>
@@ -102,22 +102,27 @@
 					</div>
 					<div class="row">
 						<div class="12u">
-							<!-- Blog -->
+							<!-- Blog / news -->
 								<section>
 									<header class="major">
 										<h2>Noticias</h2>
 									</header>
 									<div class="row">
 										<!– WP LOOP STARTS/ENDS –>
-										<?php $my_query = new WP_Query('category_name=news&showposts=2'); ?>
-										<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+										<?php
+											$args = array(
+												'cat' => get_news_cat_ID(),
+												'posts_per_page' => 2,
+											);
+											$my_query = new WP_Query($args);
+										while ($my_query->have_posts()) : $my_query->the_post(); ?>
 											<div class="6u">
-												<section class="box">
-													<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(580, 272)); ?></a>
+												<section class="box news">
+													<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(575, 272)); ?></a>
 													<header>
-														<h3><?php the_title(); ?></h3>
+														<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
 													</header>
-													<p><?php the_excerpt() ?></p>
+													<div class="excerpt-txt"><?php the_excerpt() ?></div>
 													<footer>
 														<ul class="actions">
 															<li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">saber mais</a></li>

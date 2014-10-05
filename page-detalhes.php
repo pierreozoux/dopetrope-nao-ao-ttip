@@ -1,9 +1,12 @@
+<?php
 /**
+ * nao-ao-ttip theme
  * Template Name: detalhes template
+ *
+ *
  */
 
-
-<?php get_header();?>
+get_header();?>
 </div>
 </div>
 
@@ -13,13 +16,25 @@
   <div class="row">
     <div class="4u">
       <!-- Sidebar -->
-        <section class="box">
+        <section class="box detalhe-sidebar">
+            <h1>O TTIP detalhado</h1>
+            <p class="intro">
+                A Parceria Transatlântica para o Comércio e Investimento (PTCI), designada de Transatlantic Free Trade Agreement (TAFTA) nos EUA e ainda noutros países conhecido por US/EU Trade and Investment partnership (TTIP), é um acordo comercial bilateral entre os EUA e a UE.
+            </p>
+            <ul>
           <!– WP LOOP STARTS/ENDS –>
-          <?php $my_query = new WP_Query('category_name=flyer&showposts=6'); ?>
-          <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-            <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(367, 255), array( 'class' => 'sidebar' )); ?></a>
+          <?php 
+            $args = array(
+                    'post_type' => 'page',
+                    'post_parent' => get_detalhe_parent_ID(),
+                    'order' => 'ASC',
+            );
+            $my_query = new WP_Query($args); 
+            while ($my_query->have_posts()) : $my_query->the_post(); ?>
+          <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
           <?php endwhile; ?>
           <!– WP LOOP STARTS/ENDS –>
+            </ul>
         </section>
       <!-- Sidebar -->
     </div>
@@ -30,6 +45,8 @@
         <?php the_post_thumbnail(array(783, 290)); ?>
         <header>
           <h2><?php the_title(); ?></h2>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_sharing_toolbox"></div>           
         </header>
         <?php the_content(); ?>
       </article>

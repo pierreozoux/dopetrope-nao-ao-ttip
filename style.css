@@ -1,9 +1,9 @@
 /*
-Theme Name: dopetrope
+Theme Name: dopetrope2
 Author: Pierre Ozoux
 Author URI: http://pierre-o.fr/
 Description: Based on grreat work from http://html5up.net/
-Version: 1.2
+Version: 1.3
 License: Creative Commons Attribution 3.0 Unported
 License URI: http://creativecommons.org/licenses/by/3.0/
 Tags: portfolio, white, light, left-sidebar, right-sidebar, fixed-layout, responsive-layout, editor-style, featured-images, flexible-header, full-width-template, sticky-post
@@ -29,6 +29,7 @@ Text Domain: dopetrope
 	{
 		background: #252122;
 		background-image: url('css/images/bg.png');
+                line-height:1.75em;
 	}
 
 		body.is-loading * {
@@ -54,7 +55,7 @@ Text Domain: dopetrope
 	strong, b
 	{
 		color: #252122;
-		font-weight: 400;
+		font-weight: bold;
 	}
 
 	i, em
@@ -89,7 +90,9 @@ Text Domain: dopetrope
 		font-weight: 700;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
+		h1 a, h1 a:visited, h1 a:active, h1 a:focus, h2 a, h2 a:visited, h2 a:active, h2 a:focus,
+                h3 a, h3 a:visited, h3 a:active, h3 a:focus, h4 a, h4 a:visited, h4 a:active, h4 a:focus,
+                h5 a, h5 a:visited, h5 a:active, h5 a:focus, h6 a, h6 a:visited, h6 a:active, h6 a:focus
 		{
 			color: inherit;
 			text-decoration: none;
@@ -107,6 +110,10 @@ Text Domain: dopetrope
 		}
 
 	br.clear
+	{
+		clear: both;
+	}
+        .clear
 	{
 		clear: both;
 	}
@@ -332,11 +339,11 @@ Text Domain: dopetrope
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
-			-moz-transition: background-color .25s ease-in-out;
+			/*-moz-transition: background-color .25s ease-in-out;
 			-webkit-transition: background-color .25s ease-in-out;
 			-o-transition: background-color .25s ease-in-out;
 			-ms-transition: background-color .25s ease-in-out;
-			transition: background-color .25s ease-in-out;
+			transition: background-color .25s ease-in-out;*/
 		}
 
 			input[type="button"]:hover,
@@ -368,7 +375,7 @@ Text Domain: dopetrope
 				input[type="reset"].alt:hover,
 				.button.alt:hover
 				{
-					background: #353132;
+					background: #d52349;
 				}
 				
 				input[type="button"].alt:active,
@@ -376,7 +383,7 @@ Text Domain: dopetrope
 				input[type="reset"].alt:active,
 				.button.alt:active
 				{
-					background: #151112;
+					background: #252122;
 				}
 		
 			.button.icon
@@ -669,7 +676,7 @@ Text Domain: dopetrope
 			border-top-left-radius: 5px;
 			border-top-right-radius: 5px;
 			margin: 0 0 4.5em 0;
-			cursor: default;
+			cursor: pointer;
 		}
 
 			.icon.featured:before
@@ -689,6 +696,18 @@ Text Domain: dopetrope
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
+                        .iconHover {
+                            background-color: #d52349 !important;
+                            color:#d52349 !important;
+                        }
+                        .icon.iconHover.featured:after {
+                            border-top: solid 2em #d52349;
+                        }
+                        .iconSection h2 a:hover {
+                            color:#d52349;
+                        }
+                        
+                        
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
@@ -823,6 +842,9 @@ Text Domain: dopetrope
 			border-top-color: #353434;
 			border-top-color: rgba(255,255,255,0.05);
 		}
+                .footer-left section, .footer-left section {
+                    padding-left:10px;
+                }
 		
 /*********************************************************************************/
 /* Intro                                                                         */
@@ -850,3 +872,110 @@ Text Domain: dopetrope
 			border-radius: 5px;
 			margin: 0;
 		}
+
+/*********************************************************************************/
+/* Custom                                                                     */
+/*********************************************************************************/
+.flyer-box {
+    height:480px;
+    overflow: hidden;
+}
+.flyer-box2 {
+    margin-top:40px;
+}
+.flyer-box header{
+    height:60px;
+    overflow: hidden;
+}
+.flyer-box .flyer-txt, .excerpt-txt {
+    height:120px;
+    overflow: hidden;
+}
+.excerpt-txt, .excerpt-txt2 {
+    height:120px;
+    overflow: hidden;
+    clear:both;
+}
+.excerpt-txt2 {height:220px;}
+.excerpt-txt p{
+    margin:0;
+}
+.flyer-box h3 a:hover {
+    color:#d52349;
+}
+.box.detalhe-sidebar li {
+    display:block;
+    margin:20px 0;
+}
+.box.detalhe-sidebar li a, .box.detalhe-sidebar li a:visited, .box.detalhe-sidebar li a:focus, .box.detalhe-sidebar li a:active {
+    color:#d52349;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    line-height:1.0em;
+}
+.box.detalhe-sidebar li a:hover {
+    color:#252122;
+}
+
+/* Archive */
+header.search-result {
+    text-align:center;
+    font-size:50px;
+}
+.box.post h2 {
+    float:left;
+    margin-bottom:15px;
+}
+.addthis_sharing_toolbox {
+    float:left;
+    margin:8px 0 0 10px;
+}
+.box.post p {
+   clear:both;
+}
+.box.post.small-post {
+    margin:30px 0 0 0;
+    height:500px;
+    overflow: hidden;
+    position:relative;
+}
+
+.box.post h3 a:hover {
+    color:#d52349;
+}
+article.box.post.sidebar {
+    margin-bottom:15px;
+    padding-top:0;
+}
+.box.post a.more-link, a.more-link:visited, a.more-link:active, a.more-link:focus {
+    font-weight:bold;
+    text-decoration: none;
+}
+.box.post a.more-link:hover {
+    color:#252122;
+}
+.box.post.small-post footer{
+  position:absolute;
+  bottom:30px;
+  left:30px;
+}
+.box.post.small-post a:hover {
+    color:#252122;
+}
+.box.news {
+    height:480px;
+    position:relative;
+}
+.box.news header {
+    padding:20px 0 0 0;
+    margin:0 0 20px 0;
+}
+.box.news header a:hover {
+    color:#d52349;
+}
+.box.news footer {
+  position:absolute;
+  bottom:0;
+  left:30px;
+}
