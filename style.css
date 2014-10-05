@@ -906,13 +906,13 @@ Text Domain: dopetrope
 .box.detalhe-sidebar li {
     display:block;
     margin:20px 0;
+    line-height:20px;
 }
 .box.detalhe-sidebar li a, .box.detalhe-sidebar li a:visited, .box.detalhe-sidebar li a:focus, .box.detalhe-sidebar li a:active {
     color:#d52349;
     text-decoration:none;
     font-size:18px;
     font-weight:bold;
-    line-height:1.0em;
 }
 .box.detalhe-sidebar li a:hover {
     color:#252122;
