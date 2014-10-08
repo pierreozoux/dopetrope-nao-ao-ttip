@@ -20,10 +20,10 @@
 								</div>
 								<div class="4u">
 									<section class="middle iconSection">
-										<i id="icon2" class="icon featured alt fa-file-text"></i>
-										<h2><a href="<?php echo get_detalhe_link();?>">O TTIP detalhado</a></h2>
+										<i id="icon2" class="icon featured alt fa-pencil"></i>
+										<h2><a href="<?php echo get_detalhe_link();?>">Assina </a></h2>
 										</header>
-										<p>informações e análise detalhada ao Tradado transatlântico</p>
+										<p>Iniciativa de Cidadania Europeia</p>
 									</section>
 								</div>
 								<div class="4u">
