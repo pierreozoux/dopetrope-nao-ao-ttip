@@ -1,9 +1,3 @@
-<!DOCTYPE HTML>
-<!--
-  Dopetrope by HTML5 UP
-  html5up.net | @n33co
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
   <head>
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -21,11 +15,23 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/skel-layers.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/init.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/animate.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.socialshareprivacy.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.cookies.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.socialshareprivacy.min.autoload.js"></script>
+    <script type="application/x-social-share-privacy-settings">
+    {
+      "path_prefix":"<?php bloginfo('template_directory'); ?>/",
+      "css_path":"css/jquery.socialshareprivacy.min.css",
+      "language":"pt",
+      "layout":"line",
+      "services":{"buffer":{"status":false},"delicious":{"status":false},"disqus":{"status":false},"fbshare":{"status":false},"flattr":{"status":false},"gplus":{"status":false},"hackernews":{"status":false},"linkedin":{"status":false},"pinterest":{"status":false},"reddit":{"status":false},"stumbleupon":{"status":false},"tumblr":{"status":false},"xing":{"status":false}}}</script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.socialshareprivacy.min.pt.js"></script>
     <noscript>
       <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/skel.css" />
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style-desktop.css" />
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/animate.css" type="text/css" />
+      <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/jquery.socialshareprivacy.min.css" type="text/css" />
     </noscript>
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
   </head>

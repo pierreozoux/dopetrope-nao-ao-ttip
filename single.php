@@ -40,6 +40,7 @@
     <?php while ( have_posts() ) : the_post(); ?>
       <article class="box post">
         <?php the_post_thumbnail(array(787, 292)); ?>
+        <div data-social-share-privacy='true' lang="pt"></div>
         <header>
           <h2><?php the_title(); ?></h2>
         </header>
