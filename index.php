@@ -20,15 +20,17 @@
 								</div>
 								<div class="4u">
 									<section class="middle iconSection">
-										<i id="icon2" class="icon featured alt fa-pencil"></i>
-										<h2><a href="<?php echo get_detalhe_link();?>">Assina </a></h2>
+										<a href="http://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
+										<header>
+											<h2><a href="http://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/">Assina</a></h2>
 										</header>
 										<p>Iniciativa de Cidadania Europeia</p>
 									</section>
 								</div>
 								<div class="4u">
 									<section class="last iconSection">
-										<i id="icon3" class="icon featured alt2 fa-bullhorn"></i>
+										<a href="<?php echo get_evento_link();?>"><i id="icon3" class="icon featured alt2 fa-bullhorn"></i></a>
+										<header>
 										<h2><a href="<?php echo get_evento_link();?>">Manifestação</a></h2>
 										</header>
 										<p>dia 11 de outubro, encontro no Rossio</p>
