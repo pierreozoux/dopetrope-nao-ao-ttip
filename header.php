@@ -20,10 +20,7 @@
     <script src="<?php bloginfo('template_directory'); ?>/js/skel.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/skel-layers.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/init.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/animate.js"></script>  
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5430265603b96eae" async></script>     
-    
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/animate.js"></script>
     <noscript>
       <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/skel.css" />
