@@ -42,8 +42,6 @@
         <?php the_post_thumbnail(array(787, 292)); ?>
         <header>
           <h2><?php the_title(); ?></h2>
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-          <div class="addthis_sharing_toolbox"></div>
         </header>
         <?php the_content(); ?>
       </article>

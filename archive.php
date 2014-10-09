@@ -51,8 +51,6 @@
                       <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(1000, 444)); ?></a>
                       <header>
                           <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                          <div class="addthis_sharing_toolbox"></div>
                       </header>
                       <div class="clear"></div>
                       <?php the_content('Saber mais'); ?>
