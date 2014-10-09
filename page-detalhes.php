@@ -23,13 +23,13 @@ get_header();?>
             </p>
             <ul>
           <!– WP LOOP STARTS/ENDS –>
-          <?php 
+          <?php
             $args = array(
                     'post_type' => 'page',
                     'post_parent' => get_detalhe_parent_ID(),
                     'order' => 'ASC',
             );
-            $my_query = new WP_Query($args); 
+            $my_query = new WP_Query($args);
             while ($my_query->have_posts()) : $my_query->the_post(); ?>
           <li><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
           <?php endwhile; ?>

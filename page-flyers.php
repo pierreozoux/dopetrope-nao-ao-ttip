@@ -18,13 +18,13 @@
       <!-- Sidebar -->
         <section class="box flyer-sidebar">
           <!– WP LOOP STARTS/ENDS –>
-          <?php 
+          <?php
             $args = array(
                     'post_type' => 'page',
                     'post_parent' => get_flyer_parent_ID(),
                     'order' => 'ASC',
             );
-            $my_query = new WP_Query($args);           
+            $my_query = new WP_Query($args);
             while ($my_query->have_posts()) : $my_query->the_post(); ?>
             <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(367, 255), array( 'class' => 'sidebar' )); ?></a>
           <?php endwhile; ?>
