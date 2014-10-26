@@ -47,11 +47,10 @@
                   <li><a target="_blank" href="http://stop-ttip.org/">http://stop-ttip.org/</a></li>
                   <li><a target="_blank" href="http://www.d19-20.be/en/ttip/">Aliança D19-20</a></li>
                   <li><a target="_blank" href="http://www.altersummit.eu/?lang=en">Alter Summit</a></li>
-                  <li><a target="_blank" href="http://www.quercus.pt/parceriatransatlantica-o-que-e">Quercus</a></li>
-                  <li><a target="_blank" href="http://parceriatransatlantica.wordpress.com/sites/www.attac-netzwerk.de/index.php?id=12920">ATTAC</a></li>
                   <li><a target="_blank" href="http://www.bilaterals.org/?-TTIP-&lang=en">Bilaterals</a></li>
-                  <li><a target="_blank" href="http://corporateeurope.org/tags/ttip>">Corporate Europe Observatory
-                  <li><a target="_blank" href=""></a></li>
+                  <li><a target="_blank" href="http://corporateeurope.org/tags/ttip">Corporate Europe Observatory</a></li>
+                  <li><a target="_blank" href="http://occupylondon.org.uk/stop-ttip/">Grupo de Trabalho TTIP_Occupy London</a></li>
+                  <li><a target="_blank" href="http://gasnaturalnao.wordpress.com/">Gasnaturalnão</a></li>
                 </ul>
               </section>
             </div>
@@ -61,13 +60,11 @@
                   <h2>e ainda mais</h2>
                 </header>
                 <ul class="divided">
-                  <li><a target="_blank" href="http://occupylondon.org.uk/stop-ttip/>">Grupo de Trabalho TTIP_Occupy London</a></li>
-                  <li><a target="_blank" href="http://gasnaturalnao.wordpress.com/>">Gasnaturalnão</a></li>
-                  <li><a target="_blank" href="http://www.s2bnetwork.org/?id=112>">Seattle to Brussels Network</a></li>
-                  <li><a target="_blank" href="https://www.laquadrature.net/en/TAFTA>">La Quadrature du Net (inglês)</a></li>
-                  <li><a target="_blank" href="http://www.ttip2014.eu/home.html>">TTIP:Beware what lies beneath</a></li>
-                  <li><a target="_blank" href="http://stoptafta.wordpress.com/>">Non au Traité Transatlantique</a></li>
-                  <li><a target="_blank" href="http://www.citizen.org/tafta>">Public Citizen</a></li>
+                  <li><a target="_blank" href="http://www.s2bnetwork.org/?id=112">Seattle to Brussels Network</a></li>
+                  <li><a target="_blank" href="https://www.laquadrature.net/en/TAFTA">La Quadrature du Net (inglês)</a></li>
+                  <li><a target="_blank" href="http://www.ttip2014.eu/home.html">TTIP: Beware what lies beneath</a></li>
+                  <li><a target="_blank" href="http://stoptafta.wordpress.com/">Non au Traité Transatlantique</a></li>
+                  <li><a target="_blank" href="http://www.citizen.org/tafta">Public Citizen</a></li>
                   <li><a target="_blank" href="http://www.tni.org/category/issues-workarea/trade-investment/eu-trade-policy-ftas>">Transnational Institute</a></li>
                 </ul>
               </section>
