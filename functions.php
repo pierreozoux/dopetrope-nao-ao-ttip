@@ -84,4 +84,39 @@
     return 20;
   }
   add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+  
+  function ttip_widgets_init() {
+    if ( function_exists('register_sidebar') ) {
+    register_sidebar( array(
+      'name' => __( 'Main Sidebar', 'ttip' ),
+      'id' => 'sidebar-1',
+      'before_widget' => '<div class="widget %2$s">',
+      'after_widget' => '</div>',
+      'before_title' => '<h2 class="widget-title">',
+      'after_title' => '</h2>',
+    ) );
+    }
+  }
+  add_action( 'widgets_init', 'ttip_widgets_init' );
+  
+  /**
+ * Displays navigation to next/previous pages when applicable.
+ */
+  function ttip_content_nav( $html_id ) {
+    global $wp_query;
+    $html_id = esc_attr( $html_id );
+    if ( $wp_query->max_num_pages > 1 ) :
+      $big = 999999999; // need an unlikely integer
+      echo '<nav id="'.$html_id.'" class="navigation" role="navigation">';
+      echo paginate_links( array(
+        'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+        'format' => '?paged=%#%',
+        'prev_text'    => ' ',
+        'next_text'    => ' ',
+        'current' => max( 1, get_query_var('paged') ),
+        'total' => $wp_query->max_num_pages
+      ) );
+      echo '</nav>';
+    endif;
+  }
 ?>
