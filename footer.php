@@ -32,7 +32,7 @@
                   
                 </p>
                 <footer>
-                  <a href="<?php bloginfo('template_directory'); ?>/flyers.zip" class="button">Descarga os flyers</a>
+                  <a href="<?php bloginfo('template_directory'); ?>/flyers.zip" class="button">Descarrega os flyers</a>
                 </footer>
               </section>
             </div>
