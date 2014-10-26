@@ -81,7 +81,7 @@ var theme_path = window.theme_path
 
 jQuery(document).ready(function() {
     // Animate contact link
-    $("a[title='contact']").click(function() {  
+    $("a[title='contacto']").click(function() {  
             $('html, body').animate({scrollTop: $('#contact-l').offset().top}, 800);
             return false;
     });
