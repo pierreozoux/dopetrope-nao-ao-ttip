@@ -33,6 +33,7 @@
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/animate.css" type="text/css" />
       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/jquery.socialshareprivacy.min.css" type="text/css" />
     </noscript>
+    <?php wp_head(); ?>
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
   </head>
   <body class="homepage">
