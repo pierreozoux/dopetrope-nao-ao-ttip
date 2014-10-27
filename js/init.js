@@ -85,6 +85,10 @@ jQuery(document).ready(function() {
     $('html, body').animate({scrollTop: $('#contact-l').offset().top}, 800);
     return false;
   });
+  $("a[href='#ajuda']").click(function() {
+    $('html, body').animate({scrollTop: $('#ajuda').offset().top}, 800);
+    return false;
+  });
   
   /* Icon hover */
   $(".icon.featured").hover(function() {
