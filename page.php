@@ -15,7 +15,9 @@
               <header>
                 <h2><?php the_title(); ?></h2>
               </header>
-              <?php the_content(); ?>
+              <div class="post-content">
+                <?php the_content(); ?>
+              </div>
             </article>
           <?php endwhile; ?>
 

@@ -884,7 +884,7 @@ Text Domain: dopetrope
     margin-top:40px;
 }
 .flyer-box header{
-    height:60px;
+    height:60px; 
     overflow: hidden;
 }
 .flyer-box .flyer-txt, .excerpt-txt {
@@ -927,6 +927,9 @@ header.search-result {
     float:left;
     margin-bottom:15px;
 }
+.post-content ul {
+  clear:both;
+}
 .box.post p {
    clear:both;
 }
@@ -943,6 +946,7 @@ header.search-result {
 article.box.post.sidebar {
     margin-bottom:15px;
     padding-top:0;
+    padding-bottom:0;
 }
 .box.post a.more-link, a.more-link:visited, a.more-link:active, a.more-link:focus {
     font-weight:bold;
@@ -974,6 +978,10 @@ article.box.post.sidebar {
   position:absolute;
   bottom:0;
   left:30px;
+}
+.post-date {
+  height:20px;
+  margin:0 0 20px;
 }
 
 .archive-box{
@@ -1054,5 +1062,73 @@ a.prev.page-numbers:hover{
   display: none;
 }
 #searchsubmit {
-  margin-top: 1.5em; 
+  margin-top: 0.5em; 
+}
+
+/* social network */
+ul.social-network {
+  margin-top:10px;
+  float:left;
+}
+ul.social-network li {
+    float:right;
+    display:block;
+    width:25px;
+    height:25px;
+    margin-left:10px;
+    border:none 0;
+}
+ul.social-network-blog li {
+    float:left;
+}
+ul.social-network-post li {
+    margin-left: 8px;
+}
+
+ul.social-network li a, ul.social-network li a:visited, ul.social-network li a:active, ul.social-network li a:focus{
+    display: block;
+    width:25px;
+    height:25px;
+    background-position: 0 0;
+    background-repeat: no-repeat;   
+}
+a.facebookButton{
+    background-image:url(images/facebook.png) !important;
+}
+
+
+a.twitterButton{
+    background-image:url(images/twitter.png) !important;
+}
+
+
+/* Side bar widget */
+.widget {
+  margin-bottom:50px;
+}
+.widget h2 {
+  margin-bottom:10px;
+}
+.tagcloud {margin-right:-5px; 
+}
+.tagcloud a {
+    border: 2px #828282 solid;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    color: #FFF;
+    background-color:#828282;
+    display: inline-block;
+    margin: 0 2px 6px 0;
+    padding: 12px 12px;
+    line-height:20px;
+    vertical-align: top;
+    font-family: Arial;
+    font-size:13px;
+    transition: all 400ms; 
+    -webkit-transition: all 400ms; 	
+    text-decoration:none;
+}
+.tagcloud a:hover {
+    border-color:#d52349;
+    background-color:#d52349;
 }

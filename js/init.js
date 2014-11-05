@@ -80,7 +80,7 @@ var theme_path = window.theme_path
 /* Custom things */
 
 jQuery(document).ready(function() {
-  // Animate contact link
+  // Animate link
   $("a[title='contacto']").click(function() {
     $('html, body').animate({scrollTop: $('#contact-l').offset().top}, 800);
     return false;
@@ -89,6 +89,11 @@ jQuery(document).ready(function() {
     $('html, body').animate({scrollTop: $('#ajuda').offset().top}, 800);
     return false;
   });
+  $("a[href='#eventos']").click(function() {
+    $('html, body').animate({scrollTop: $('#eventos').offset().top}, 800);
+    return false;
+  });  
+  
   
   /* Icon hover */
   $(".icon.featured").hover(function() {
