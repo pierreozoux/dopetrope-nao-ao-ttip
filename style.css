@@ -964,7 +964,7 @@ article.box.post.sidebar {
     color:#252122;
 }
 .box.news {
-    height:480px;
+    height:520px;
     position:relative;
 }
 .box.news header {
@@ -1063,6 +1063,15 @@ a.prev.page-numbers:hover{
 }
 #searchsubmit {
   margin-top: 0.5em; 
+}
+
+h1.list-post-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 30px 0;  
+}
+h1.list-post-title span {
+  font-size: 40px;
 }
 
 /* social network */
