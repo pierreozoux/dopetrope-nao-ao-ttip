@@ -42,7 +42,7 @@
     </div>
       
     <!-- All other posts -->
-    <div class="8u skel-cell-important box2">
+    <div class="12u skel-cell-important box2">
       <div class="box2-article">
         <h3>Últimos artigos</h3>
         <ul class="list-article">
@@ -54,7 +54,7 @@
           $my_query = new WP_Query($args);
           while ($my_query->have_posts()) : $my_query->the_post(); ?>    
             <li>
-              <?php the_date('d-m-Y');?> - <a href=""><?php the_title(); ?></a>
+              <?php the_date('d-m-Y');?> - <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </li>
           <?php endwhile; ?>
         </ul>
