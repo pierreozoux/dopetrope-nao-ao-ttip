@@ -43,9 +43,22 @@ get_header();?>
     <?php while ( have_posts() ) : the_post(); ?>
       <article class="box post">
         <?php the_post_thumbnail(array(783, 290)); ?>
-        <div data-social-share-privacy='true' lang="pt"></div>
+        <!--<div data-social-share-privacy='true' lang="pt"></div>-->
         <header>
           <h2><?php the_title(); ?></h2>
+          <?php 
+            $facebookLink = "https://www.facebook.com/sharer/sharer.php?u=".get_the_permalink();
+            $twitterLink = "https://twitter.com/home?status=".get_the_permalink();        
+          ?>                
+          <ul class="social-network sharePost">
+            <li>
+                <a class="twitterButton" target="_blank" href="<?php echo $twitterLink;?>"></a>
+            </li> 
+
+            <li>
+                <a class="facebookButton" target="_blank" href="<?php echo $facebookLink;?>"></a>
+            </li>                                              
+          </ul>           
         </header>
         <?php the_content(); ?>
       </article>

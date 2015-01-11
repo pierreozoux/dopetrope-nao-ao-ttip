@@ -41,16 +41,22 @@
             <div class="4u footer-left">
               <section>
                 <header>
-                  <h2>não estamos sozinhos!</h2>
+                  <h2>quem apoia a plataforma!</h2>
                 </header>
                 <ul class="divided">
-                  <li><a target="_blank" href="http://stop-ttip.org/">http://stop-ttip.org/</a></li>
-                  <li><a target="_blank" href="http://www.d19-20.be/en/ttip/">Aliança D19-20</a></li>
-                  <li><a target="_blank" href="http://www.altersummit.eu/?lang=en">Alter Summit</a></li>
-                  <li><a target="_blank" href="http://www.bilaterals.org/?-TTIP-&lang=en">Bilaterals</a></li>
-                  <li><a target="_blank" href="http://corporateeurope.org/tags/ttip">Corporate Europe Observatory</a></li>
-                  <li><a target="_blank" href="http://occupylondon.org.uk/stop-ttip/">Grupo de Trabalho TTIP_Occupy London</a></li>
-                  <li><a target="_blank" href="http://gasnaturalnao.wordpress.com/">Gasnaturalnão</a></li>
+                  <li><a target="_blank" href="http://parceriatransatlantica.wordpress.com/" >Grupo de Portugal para análise crítica ao Acordo UE-EUA (TTIP)</a></li>
+                  <li><a target="_blank" href="http://blog.academiacidada.org/" >Academia Cidadã</a></li>
+                  <li><a target="_blank" href="http://www.precarios.net/" >Precários Inflexíveis</a></li>
+                  <li><a target="_blank" href="http://www.maisdemocracia.org/" >MaisDemocracia</a></li>
+                  <li><a target="_blank" href="http://bioterra.blogspot.pt/" >Bioterra</a></li>
+                  <li><a target="_blank" href="http://www.cidac.pt/" >CIDAC</a></li>
+                  <li><a target="_blank" href="http://www.radiozero.pt/blog/tag/vidas-alternativas/" >Vidas Alternativas</a></li>
+                  <li><a target="_blank" href="http://www.opusgay.org/" >Opus Gay</a></li>
+                  <li><a target="_blank" href="http://artigo74.wordpress.com/" >Artigo 74 - Pelo Direito à Educação</a></li>
+                  <li><a target="_blank" href="www.gaia.org.pt" >O GAIA (Grupo de Acção e Intervenção Ambiental)</a></li>  
+                  <li><a target="_blank" href="https://www.facebook.com/fabricadealternativas" >Fábrica de Alternativas</a></li>  
+                  <li><a target="_blank" href="https://ansol.org/" >ANSOL</a></li>
+                  <li><a target="_blank" href="http://www.spn.pt/" >SPN</a></li>
                 </ul>
               </section>
             </div>
@@ -60,6 +66,13 @@
                   <h2>e ainda mais</h2>
                 </header>
                 <ul class="divided">
+                  <li><a target="_blank" href="http://stop-ttip.org/">http://stop-ttip.org/</a></li>
+                  <li><a target="_blank" href="http://www.d19-20.be/en/ttip/">Aliança D19-20</a></li>
+                  <li><a target="_blank" href="http://www.altersummit.eu/?lang=en">Alter Summit</a></li>
+                  <li><a target="_blank" href="http://www.bilaterals.org/?-TTIP-&lang=en">Bilaterals</a></li>
+                  <li><a target="_blank" href="http://corporateeurope.org/tags/ttip">Corporate Europe Observatory</a></li>
+                  <li><a target="_blank" href="http://occupylondon.org.uk/stop-ttip/">Grupo de Trabalho TTIP_Occupy London</a></li>
+                  <li><a target="_blank" href="http://gasnaturalnao.wordpress.com/">Gasnaturalnão</a></li>                    
                   <li><a target="_blank" href="http://www.s2bnetwork.org/?id=112">Seattle to Brussels Network</a></li>
                   <li><a target="_blank" href="https://www.laquadrature.net/en/TAFTA">La Quadrature du Net (inglês)</a></li>
                   <li><a target="_blank" href="http://www.ttip2014.eu/home.html">TTIP: Beware what lies beneath</a></li>
@@ -75,7 +88,8 @@
                   <h2 id="contact-l">Contacto</h2>
                 </header>
                 <ul class="social">
-                  <li><a class="icon fa-facebook" target="_blank" href="https://www.facebook.com/groups/1496844397239971/"><span class="label">Facebook</span></a></li>
+                  <!--<li><a class="icon fa-facebook" target="_blank" href="https://www.facebook.com/groups/1496844397239971/"><span class="label">Facebook</span></a></li>-->
+                  <li><a class="icon fa-facebook" target="_blank" href="https://www.facebook.com/naottip"><span class="label">Facebook</span></a></li>
                   <li><a class="icon fa-twitter" target="_blank" href="https://twitter.com/NaoAoTTIP"><span class="label">Twitter</span></a></li>
                 </ul>
                 <ul class="contact">
