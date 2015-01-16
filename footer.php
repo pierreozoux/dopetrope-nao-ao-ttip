@@ -47,7 +47,7 @@
                   <li><a target="_blank" href="http://parceriatransatlantica.wordpress.com/" >Grupo de Portugal para análise crítica ao Acordo UE-EUA (TTIP)</a></li>
                   <li><a target="_blank" href="http://blog.academiacidada.org/" >Academia Cidadã</a></li>
                   <li><a target="_blank" href="http://www.precarios.net/" >Precários Inflexíveis</a></li>
-                  <li><a target="_blank" href="http://www.maisdemocracia.org/" >MaisDemocracia</a></li>
+                  <!--<li><a target="_blank" href="http://www.maisdemocracia.org/" >MaisDemocracia</a></li>-->
                   <li><a target="_blank" href="http://bioterra.blogspot.pt/" >Bioterra</a></li>
                   <li><a target="_blank" href="http://www.cidac.pt/" >CIDAC</a></li>
                   <li><a target="_blank" href="http://www.radiozero.pt/blog/tag/vidas-alternativas/" >Vidas Alternativas</a></li>
@@ -57,6 +57,7 @@
                   <li><a target="_blank" href="https://www.facebook.com/fabricadealternativas" >Fábrica de Alternativas</a></li>  
                   <li><a target="_blank" href="https://ansol.org/" >ANSOL</a></li>
                   <li><a target="_blank" href="http://www.spn.pt/" >SPN</a></li>
+                  <li><a target="_blank" href="http://www.fenprof.pt/" >FENPROF</a></li>
                 </ul>
               </section>
             </div>
