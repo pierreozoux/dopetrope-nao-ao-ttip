@@ -52,7 +52,7 @@
             <header>
               <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
             </header>
-            <p class="post-date"><?php the_date('d-m-Y');?></p>
+            <p class="post-date"><?php the_time('d-m-Y');?></p>
             <div class="flyer-txt">
               <?php the_excerpt();?>
             </div>
@@ -83,7 +83,7 @@
           $my_query = new WP_Query($args);
           while ($my_query->have_posts()) : $my_query->the_post(); ?>    
             <li>
-              <?php the_date('d-m-Y');?> - <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+              <?php the_time('d-m-Y');?> - <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </li>
           <?php endwhile; ?>
         </ul>
