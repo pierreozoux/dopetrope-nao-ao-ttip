@@ -70,7 +70,6 @@
   * Return the eventos cat ID
   */
   function get_eventos_cat_ID() {
-    // return 3;
     $idObj = get_category_by_slug('eventos'); 
     return $idObj->term_id;      
   }
@@ -84,7 +83,7 @@
     return $idObj->term_id;    
   }
 
-  // ??
+
   function custom_excerpt_length( $length ) {
     return 20;
   }
