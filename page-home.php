@@ -41,7 +41,7 @@
 										<header>
 										<h2><a href="<?php echo get_evento_link();?>">Manifestação</a></h2>
 										</header>
-										<p>dia 11 de outubro, encontro no Rossio</p>
+										<p>dia 18 de abril 2015</p>
 									</section>
 								</div>
 							</div>
@@ -53,6 +53,48 @@
 		<!-- Main -->
 			<div id="main-wrapper">
 				<div class="container">
+          
+          
+					<div class="row">
+						<div class="12u">
+							<!-- Blog / news -->
+								<section>
+									<header class="major">
+										<h2>Noticias</h2>
+									</header>
+									<div class="row">
+										<!– WP LOOP STARTS/ENDS –>
+										<?php
+											$args = array(
+												'cat' => get_news_cat_ID(),
+												'posts_per_page' => 4,
+                        'orderby' => 'date',
+                        'order'   => 'DESC',
+											);
+											$my_query3 = new WP_Query($args);
+										while ($my_query3->have_posts()) : $my_query3->the_post(); ?>
+											<div class="6u">
+												<section class="box news hp">
+													<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(575, 272)); ?></a>
+													<header>
+														<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+													</header>
+													<div class="excerpt-txt"><?php the_excerpt() ?></div>
+													<footer>
+														<ul class="actions">
+															<li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">saber mais</a></li>
+														</ul>
+													</footer>
+												</section>
+											</div>
+										<?php endwhile; ?>
+										<!– WP LOOP STARTS/ENDS –>
+									</div>
+								</section>
+						</div>
+					</div>
+          
+          
 					<div class="row">
 						<div class="12u">
 							<!-- Flyers -->
@@ -90,8 +132,8 @@
 									</div>
 									<div class="row">
 										<!– WP LOOP STARTS/ENDS –>
-										<?php $my_query = new WP_Query('category_name=flyer&showposts=3&offset=3'); ?>
-										<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+										<?php $my_query2 = new WP_Query('category_name=flyer&showposts=3&offset=3'); ?>
+										<?php while ($my_query2->have_posts()) : $my_query2->the_post(); ?>
 											<div class="4u">
 												<section class="box">
 													<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(367, 255)); ?></a>
@@ -110,42 +152,7 @@
 								</section>
 						</div>
 					</div>
-					<div class="row">
-						<div class="12u">
-							<!-- Blog / news -->
-								<section>
-									<header class="major">
-										<h2>Noticias</h2>
-									</header>
-									<div class="row">
-										<!– WP LOOP STARTS/ENDS –>
-										<?php
-											$args = array(
-												'cat' => get_news_cat_ID(),
-												'posts_per_page' => 2,
-											);
-											$my_query = new WP_Query($args);
-										while ($my_query->have_posts()) : $my_query->the_post(); ?>
-											<div class="6u">
-												<section class="box news">
-													<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(575, 272)); ?></a>
-													<header>
-														<h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-													</header>
-													<div class="excerpt-txt"><?php the_excerpt() ?></div>
-													<footer>
-														<ul class="actions">
-															<li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">saber mais</a></li>
-														</ul>
-													</footer>
-												</section>
-											</div>
-										<?php endwhile; ?>
-										<!– WP LOOP STARTS/ENDS –>
-									</div>
-								</section>
-						</div>
-					</div>
+
 				</div>
 			</div>
 <?php get_footer();?>

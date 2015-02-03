@@ -70,16 +70,21 @@
   * Return the eventos cat ID
   */
   function get_eventos_cat_ID() {
-    return 3;
+    // return 3;
+    $idObj = get_category_by_slug('eventos'); 
+    return $idObj->term_id;      
   }
   /*
   *
   * Return the news cat ID
   */
   function get_news_cat_ID() {
-    return 4;
+    // return 4;
+    $idObj = get_category_by_slug('noticias'); 
+    return $idObj->term_id;    
   }
 
+  // ??
   function custom_excerpt_length( $length ) {
     return 20;
   }

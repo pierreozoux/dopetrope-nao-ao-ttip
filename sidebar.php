@@ -31,7 +31,7 @@
             <article class="box post sidebar">
                 <header>
                     <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                    <?php the_date('d-m-Y');?>
+                    <?php the_time('d-m-Y');?>
                 </header>
             </article>
           <?php endwhile; ?>
