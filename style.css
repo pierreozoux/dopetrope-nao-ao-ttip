@@ -1164,3 +1164,53 @@ a.twitterButton{
 }
 ul.list-article {
 }
+
+table.page-table {
+  width:100%;
+  clear:both;
+}
+table.page-table th, table.page-table td.table-fc {
+  font-weight:bold;
+  font-size:23px;
+  color:#252122;
+}
+table.page-table th {
+  width:17%;
+}
+table.page-table td {
+  background-color: #dfdfdf;
+}
+table.page-table th, table.page-table td {
+  height:80px;
+  text-align: center;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-right-color: #FFF;
+  border-bottom-width: 13px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFF;  
+  vertical-align:middle;
+}
+table.page-table td.table-checked {
+  background-image: url('images/ok.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+table.page-table td.table-checked-link {
+  background-color: #d52349 !important;
+  background-image: url('images/ok2.png');
+  background-position: 10% 50%;
+  background-repeat: no-repeat;  
+}
+table.page-table td.table-checked-link a, table.page-table td.table-checked-link a:focus, table.page-table td.table-checked-link a:active { 
+  display:block;
+  width:100%;
+  height:100%;
+  color:#FFF;
+  padding:20px 0 0 40px;
+  font-weight:bold;
+  text-decoration: none;
+}
+table.page-table td.table-checked-link a:hover { 
+  text-decoration: underline;
+}
