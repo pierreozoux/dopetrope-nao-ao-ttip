@@ -20,6 +20,9 @@
     return get_permalink(20);
   }
 
+  add_filter('http_request_timeout', function(){return 5;});  
+    
+  
   /*
   *
   * Return the first flyer URL
