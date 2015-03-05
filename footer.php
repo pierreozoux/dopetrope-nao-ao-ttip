@@ -121,5 +121,6 @@ $('.date').each(function(index, element) {
     $(element).html($(element).html().replace(/(\d\d)/, "<strong>$1</strong>"));
 });
 </script>
-  </body>
+ <?php wp_footer(); ?> 
+</body>
 </html>
