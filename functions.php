@@ -103,6 +103,8 @@
   }
   add_action( 'widgets_init', 'ttip_widgets_init' );
   
+  add_filter('http_request_timeout', function(){return 5;});  
+  
   /**
  * Displays navigation to next/previous pages when applicable.
  */
