@@ -10,7 +10,7 @@
                 <ul class="dates">
                   <!– WP LOOP STARTS/ENDS –>
                   
-                  <?php $my_query = new WP_Query('cat='.get_eventos_cat_ID().'&showposts=5'); ?>
+                  <?php $my_query = new WP_Query('cat='.get_eventos_cat_ID().'&showposts=10'); ?>
                   <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
                   <li>
                     <span class="date"><?php the_field('event_date') ?></span>
