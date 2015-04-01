@@ -9,9 +9,9 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-							<header>
-								<h2>Não ao Tratado Transatlântico</h2>
-								<p>Plataforma portuguesa para análise crítica ao TTIP</p>
+							<header style="color: transparent; background-color: transparent;">
+								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
+								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
 							</header>
 						</section>
 					<!-- Intro -->
