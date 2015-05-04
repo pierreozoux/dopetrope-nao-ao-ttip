@@ -9,10 +9,13 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-							<header style="color: transparent; background-color: transparent;">
+              <a href="http://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia">
+                
+              </a>
+							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
-							</header>
+							</header>-->
 						</section>
 					<!-- Intro -->
 						<section id="intro" class="container">
@@ -37,11 +40,11 @@
 								</div>
 								<div class="4u">
 									<section class="last iconSection">
-										<a href="<?php echo get_evento_link();?>"><i id="icon3" class="icon featured alt2 fa-bullhorn"></i></a>
+										<a href="https://www.nao-ao-ttip.pt/marcha-contra-monsanto/<?php // echo get_evento_link();?>"><i id="icon3" class="icon featured alt2 fa-bullhorn"></i></a>
 										<header>
-										<h2><a href="<?php echo get_evento_link();?>">Manifestação</a></h2>
+										<h2><a href="https://www.nao-ao-ttip.pt/marcha-contra-monsanto/<?php // echo get_evento_link();?>">Monsanto</a></h2>
 										</header>
-										<p>dia 18 de abril 2015</p>
+										<p>Marcha contra Monsanto <br>dia 23 de maio de 2015</p>
 									</section>
 								</div>
 							</div>
