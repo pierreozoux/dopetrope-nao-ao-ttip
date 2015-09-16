@@ -1,4 +1,12 @@
-<?php get_header();?>
+<?php 
+/**
+ * nao-ao-ttip theme
+ * Template Name: todos template
+ *
+ *
+ */
+
+get_header();?>
 </div>
 </div>
 
