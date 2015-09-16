@@ -133,3 +133,7 @@
 	{
 		margin: 0;
 	}
+	   #nav li #searchform {
+    display:none;
+    }
+	

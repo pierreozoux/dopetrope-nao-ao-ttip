@@ -75,11 +75,34 @@
 										<h2>Noticias</h2>
 									</header>
 									<div class="row">
-										<!– WP LOOP STARTS/ENDS –>
+                    <?php
+                      $args = array(
+                        'name' => 'temos-ate-dia-1-de-outubro-para-apoiar-uma-grande-divulgacao-da-ice-contra-o-ttip-2',
+                      );
+                      $my_query3 = new WP_Query($args);
+                    if ($my_query3->have_posts()) {
+                    	$my_query3->the_post(); ?>										
+                      <div class="6u">
+                        <section class="box news hp">
+                          <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(575, 272)); ?></a>
+                          <header>
+                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                          </header>
+                          <div class="excerpt-txt"><?php the_excerpt() ?></div>
+                          <footer>
+                            <ul class="actions">
+                              <li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">saber mais</a></li>
+                            </ul>
+                          </footer>
+                        </section>
+                      </div>                    
+                      <?php 
+                    }
+                    ?>
 										<?php
 											$args = array(
 												'cat' => get_news_cat_ID(),
-												'posts_per_page' => 4,
+												'posts_per_page' => 7,
                         'orderby' => 'date',
                         'order'   => 'DESC',
 											);

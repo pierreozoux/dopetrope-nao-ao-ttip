@@ -237,6 +237,10 @@
 		#navPanel .indent-4 { display: inline-block; width: 4em; }
 		#navPanel .indent-5 { display: inline-block; width: 5em; }
 		#navPanel .depth-0 { color: #fff; }
+		
+		#nav li #searchform {
+		display:none;
+		}
 
 /*********************************************************************************/
 /* Wrappers                                                                      */

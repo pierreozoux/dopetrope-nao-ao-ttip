@@ -128,4 +128,11 @@
       echo '</nav>';
     endif;
   }
+  
+  add_filter('wp_nav_menu_items','add_search_box_to_menu', 10, 2);
+  function add_search_box_to_menu( $items, $args ) {
+  	if ( 'header-menu' == $args->theme_location )
+  		$items .= '<li class="search-li">' . get_search_form( false ) . '</li>';
+  	return $items;
+  }  
 ?>

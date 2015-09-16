@@ -1219,3 +1219,18 @@ table.page-table td.table-checked-link a, table.page-table td.table-checked-link
 table.page-table td.table-checked-link a:hover { 
   text-decoration: underline;
 }
+#nav > ul > li.search-li {
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+#nav li #searchform  input[type="text"] {
+  float:left;
+  width:auto;
+}
+#nav li #searchform #searchsubmit {
+  float:left;
+  margin: 0 0 0 10px;
+}

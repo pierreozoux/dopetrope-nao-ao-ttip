@@ -8,7 +8,7 @@
                   <h2 id="eventos">Eventos</h2>
                 </header>
                 <ul class="dates">
-                  <!– WP LOOP STARTS/ENDS –>
+                  <!--  -->
                   
                   <?php $my_query = new WP_Query('cat='.get_eventos_cat_ID().'&showposts=10'); ?>
                   <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
