@@ -1234,3 +1234,8 @@ table.page-table td.table-checked-link a:hover {
   float:left;
   margin: 0 0 0 10px;
 }
+
+.widget_nav_menu ul li a{
+    font-size: 25px;
+    font-weight: 900;
+}
