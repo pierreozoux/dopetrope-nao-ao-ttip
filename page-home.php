@@ -72,7 +72,7 @@
 							<!-- Blog / news -->
 								<section>
 									<header class="major">
-										<h2>Noticias</h2>
+										<h2>Notícias</h2>
 									</header>
 									<div class="row">
                     <?php
@@ -125,6 +125,11 @@
 										<?php endwhile; ?>
 										<!– WP LOOP STARTS/ENDS –>
 									</div>
+										<footer class="action-call">
+											<ul class="actions">
+												<li><a href="<?php echo get_news_link(); ?>" class="button">Todas as notícias</a></li>
+											</ul>
+										</footer>                  
 								</section>
 						</div>
 					</div>

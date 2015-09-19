@@ -1245,3 +1245,8 @@ table.page-table td.table-checked-link a:hover {
 .widget_nav_menu ul li a:hover {
     color:#d52349;
 }
+
+.action-call {
+  text-align:center;
+  
+}
