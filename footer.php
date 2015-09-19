@@ -59,6 +59,7 @@
                   <li><a target="_blank" href="http://www.spn.pt/" >SPN</a></li>
                   <li><a target="_blank" href="http://www.fenprof.pt/" >FENPROF</a></li>
                   <li><a target="_blank" href="http://www.spgl.pt/" >SPGL</a></li>
+                  <li><a target="_blank" href="http://www.sprc.pt" >SPRC</a></li>
                 </ul>
               </section>
             </div>
