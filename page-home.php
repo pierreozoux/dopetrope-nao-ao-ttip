@@ -76,6 +76,7 @@
 									</header>
 									<div class="row">
                     <?php
+                     
                       $args = array(
                         'name' => 'apelo-a-accao-10-17-outubro-de-2015',
                       );
@@ -105,6 +106,7 @@
 												'posts_per_page' => 7,
                         'orderby' => 'date',
                         'order'   => 'DESC',
+												'post__not_in' => array( 3123 )
 											);
 											$my_query3 = new WP_Query($args);
 										while ($my_query3->have_posts()) : $my_query3->the_post(); ?>
