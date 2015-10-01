@@ -77,7 +77,7 @@
 									<div class="row">
                     <?php
                       $args = array(
-                        'name' => 'temos-ate-dia-1-de-outubro-para-apoiar-uma-grande-divulgacao-da-ice-contra-o-ttip-2',
+                        'name' => 'apelo-a-accao-10-17-outubro-de-2015',
                       );
                       $my_query3 = new WP_Query($args);
                     if ($my_query3->have_posts()) {
