@@ -9,7 +9,7 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-              <a href="http://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia">
+              <a href="https://www.nao-ao-ttip.pt/introducao-a-semana-internacional-de-accao/">
                 
               </a>
 							<!--<header style="color: transparent; background-color: transparent;">
