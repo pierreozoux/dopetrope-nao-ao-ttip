@@ -9,7 +9,7 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-              <a href="https://www.nao-ao-ttip.pt/introducao-a-semana-internacional-de-accao/">
+              <a href="https://www.nao-ao-ttip.pt/programa-geral-de-semana-internacional-contra-o-ttip/">
                 
               </a>
 							<!--<header style="color: transparent; background-color: transparent;">
@@ -31,9 +31,9 @@
 								</div>
 								<div class="4u">
 									<section class="middle iconSection">
-										<a href="https://www.nao-ao-ttip.pt/programa-geral-de-semana-internacional-contra-o-ttip/"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
+										<a href="https://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
 										<header>
-											<h2><a href="https://www.nao-ao-ttip.pt/programa-geral-de-semana-internacional-contra-o-ttip/">Assina</a></h2>
+											<h2><a href="https://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/">Assina</a></h2>
 										</header>
 										<p>Iniciativa de Cidadania Europeia</p>
 									</section>
