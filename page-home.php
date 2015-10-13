@@ -31,9 +31,9 @@
 								</div>
 								<div class="4u">
 									<section class="middle iconSection">
-										<a href="http://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
+										<a href="https://www.nao-ao-ttip.pt/programa-geral-de-semana-internacional-contra-o-ttip/"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
 										<header>
-											<h2><a href="http://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/">Assina</a></h2>
+											<h2><a href="https://www.nao-ao-ttip.pt/programa-geral-de-semana-internacional-contra-o-ttip/">Assina</a></h2>
 										</header>
 										<p>Iniciativa de Cidadania Europeia</p>
 									</section>
@@ -78,7 +78,7 @@
                     <?php
                      
                       $args = array(
-                        'name' => 'apelo-a-accao-10-17-outubro-de-2015',
+                        'name' => 'programa-geral-de-semana-internacional-contra-o-ttip',
                       );
                       $my_query3 = new WP_Query($args);
                     if ($my_query3->have_posts()) {
