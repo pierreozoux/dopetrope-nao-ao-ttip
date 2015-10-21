@@ -75,7 +75,7 @@
 									<div class="row">
                     <?php
                      
-                      $args = array(
+                     /* $args = array(
                         'name' => 'programa-geral-de-semana-internacional-contra-o-ttip',
                       );
                       $my_query3 = new WP_Query($args);
@@ -96,7 +96,7 @@
                         </section>
                       </div>                    
                       <?php 
-                    }
+                    }*/
                     ?>
 										<?php
 											$args = array(
