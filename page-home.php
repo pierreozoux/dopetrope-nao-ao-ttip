@@ -9,9 +9,7 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-              <a href="https://www.nao-ao-ttip.pt/programa-geral-de-semana-internacional-contra-o-ttip/">
-                
-              </a>
+              <a href="https://www.nao-ao-ttip.pt/programa-geral-de-semana-internacional-contra-o-ttip/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
