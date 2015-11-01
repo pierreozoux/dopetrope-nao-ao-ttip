@@ -9,8 +9,15 @@
                 </header>
                 <ul class="dates">
                   <!--  -->
+                  <?php 
+                  $args = array(
+                    'orderby' => 'meta_value',
+                    'cat' => get_eventos_cat_ID(),
+                    'posts_per_page' => 7
+                  );                  
+                  $my_query = new WP_Query($args); ?>
                   
-                  <?php $my_query = new WP_Query('cat='.get_eventos_cat_ID().'&showposts=10'); ?>
+                  
                   <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
                   <li>
                     <span class="date"><?php the_field('event_date') ?></span>

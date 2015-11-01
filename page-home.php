@@ -101,7 +101,7 @@
 										<?php
 											$args = array(
 												'cat' => get_news_cat_ID(),
-												'posts_per_page' => 7,
+												'posts_per_page' => 8,
                         'orderby' => 'date',
                         'order'   => 'DESC',
 												'post__not_in' => array( 3219, 3192 )
