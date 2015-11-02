@@ -9,7 +9,7 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-              <a href="https://www.nao-ao-ttip.pt/emission-tv-31102015-as-1130-rtp-2/"></a>
+              <a href="https://www.nao-ao-ttip.pt/conferencia-05112015-as-1800-sede-da-cplp-lisboa/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
