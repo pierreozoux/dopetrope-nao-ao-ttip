@@ -9,7 +9,7 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-              <a href="https://www.nao-ao-ttip.pt/conversa-07112015-as-2000-condominio-festival-lisboa/"></a>
+              <a href="https://www.nao-ao-ttip.pt/debate-17112015-as-2130-associacao-gandaia-costa-da-caparica/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
