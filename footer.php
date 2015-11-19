@@ -11,7 +11,9 @@
                   <!--  -->
                   <?php 
                   $args = array(
-                    'orderby' => 'meta_value',
+                  	'meta_key'			=> 'event_date',
+                  	'orderby'			=> 'meta_value_num',
+                  	'order'				=> 'DESC',             		
                     'cat' => get_eventos_cat_ID(),
                     'posts_per_page' => 7
                   );                  
