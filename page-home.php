@@ -10,7 +10,7 @@
 					<!-- Banner -->
 						<section id="banner">
 
-              <a href="https://www.nao-ao-ttip.pt/a-marcha-mundial-do-clima-29112015-as-1500-lisboa/"></a>
+              <a href="https://www.nao-ao-ttip.pt/debate-sobre-o-ttip-em-evora/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
