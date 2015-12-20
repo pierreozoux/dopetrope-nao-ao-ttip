@@ -1250,3 +1250,7 @@ table.page-table td.table-checked-link a:hover {
   text-align:center;
   
 }
+.box.post h2.ss-titre {
+  font-size:30px;
+  font-weight:bold;
+}
