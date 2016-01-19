@@ -10,7 +10,7 @@
 					<!-- Banner -->
 						<section id="banner">
 
-              <a href="https://www.nao-ao-ttip.pt/debate-16022016-as-1600-livraria-ler-devagar-lisboa/"></a>
+              <a href="https://www.nao-ao-ttip.pt/os-perigos-do-ttip/as-10-razoes-contra-o-ttip/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
