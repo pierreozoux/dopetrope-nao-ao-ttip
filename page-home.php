@@ -10,7 +10,7 @@
 					<!-- Banner -->
 						<section id="banner">
 
-              <a href="https://www.nao-ao-ttip.pt/conversa-com-joao-ferreira-18022016-as-2100-cacilhas/"></a>
+              <a href="https://www.nao-ao-ttip.pt/conferencia-26022016-as-1600-universidade-nova-lisboa/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
