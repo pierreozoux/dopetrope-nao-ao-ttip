@@ -13,16 +13,21 @@
                   $args = array(
                   	'meta_key'			=> 'event_date',
                   	'orderby'			=> 'meta_value_num',
-                  	'order'				=> 'DESC',             		
+                  	/*'meta_type'   => 'DATE',*/
+                  	'order'				=> 'DESC',  		
                     'cat' => get_eventos_cat_ID(),
                     'posts_per_page' => 7
                   );                  
                   $my_query = new WP_Query($args); ?>
                   
                   
-                  <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                  <?php while ($my_query->have_posts()) : $my_query->the_post(); 
+                    $eventDate = get_post_meta ( get_the_ID(), 'event_date', true );
+                    $eventTime = strtotime($eventDate);
+                    $eventNewformat = date('M d',$eventTime);
+                    ?>
                   <li>
-                    <span class="date"><?php the_field('event_date') ?></span>
+                    <span class="date"><?php echo $eventNewformat;  ?></span>
                     <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                     <p><?php the_excerpt() ?></p>
                   </li>
