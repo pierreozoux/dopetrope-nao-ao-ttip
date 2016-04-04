@@ -10,7 +10,7 @@
 					<!-- Banner -->
 						<section id="banner">
 
-              <a href="https://www.nao-ao-ttip.pt/zona-livre-do-ttip/"></a>
+              <a href="https://www.nao-ao-ttip.pt/oficina-09042016-as-1200-encontro-nacional-justica-climatica-iscte-lisboa/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
