@@ -10,7 +10,7 @@
 					<!-- Banner -->
 						<section id="banner">
 
-              <a href="https://www.nao-ao-ttip.pt/conversa-21042016-as-1600-oeiras/"></a>
+              <a href="https://www.nao-ao-ttip.pt/manifestacao-25042016-as-1500-no-rossio-lisboa/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
