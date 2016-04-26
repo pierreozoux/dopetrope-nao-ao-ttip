@@ -10,7 +10,7 @@
 					<!-- Banner -->
 						<section id="banner">
 
-              <a href="https://www.nao-ao-ttip.pt/manifestacao-25042016-as-1500-no-rossio-lisboa/"></a>
+              <a href="https://www.nao-ao-ttip.pt/sessao-de-esclarecimentos-05052016-as-1830-o-smmp-no-porto/"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
