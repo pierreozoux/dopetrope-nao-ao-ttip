@@ -30,11 +30,11 @@
 								</div>
 								<div class="4u">
 									<section class="middle iconSection">
-										<a href="https://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
+										<a href="http://peticaopublica.com/pview.aspx?pi=PT80877"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
 										<header>
-											<h2><a href="https://www.nao-ao-ttip.pt/assina-a-iniciativa-de-cidadania-europeia/">Assina</a></h2>
+											<h2><a href="http://peticaopublica.com/pview.aspx?pi=PT80877">Assina</a></h2>
 										</header>
-										<p>Iniciativa de Cidadania Europeia</p>
+										<p>A petição pelo debate sobre a ratificação do CETA na Assembleia da República</p>
 									</section>
 								</div>
 								<div class="4u">
