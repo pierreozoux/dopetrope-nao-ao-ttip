@@ -23,7 +23,7 @@
 									<section class="first iconSection">
 										<a href="https://gio30.typeform.com/to/dxDluN"><i id="icon1" class="icon featured fa-check-square-o"></i></a>
 										<header>
-											<h2><a href="<?php echo get_manifesto_link();?>">Subscreva o manifesto</a></h2>
+											<h2><a href="https://gio30.typeform.com/to/dxDluN">Subscreva o manifesto</a></h2>
 										</header>
 										<p>das Organizações da Sociedade Civil contra os tratados de livre comércio TTIP, CETA, TISA</p>
 									</section>
