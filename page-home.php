@@ -21,20 +21,20 @@
 							<div class="row">
 								<div class="4u">
 									<section class="first iconSection">
-										<a href="<?php echo get_manifesto_link();?>"><i id="icon1" class="icon featured fa-certificate"></i></a>
+										<a href="https://gio30.typeform.com/to/dxDluN"><i id="icon1" class="icon featured fa-check-square-o"></i></a>
 										<header>
-											<h2><a href="<?php echo get_manifesto_link();?>">Manifesto</a></h2>
+											<h2><a href="<?php echo get_manifesto_link();?>">Subscreva o manifesto</a></h2>
 										</header>
-										<p>Declaração conjunta da sociedade civil Portuguesa, em ação contra a ameaça do TTIP</p>
+										<p>das Organizações da Sociedade Civil contra os tratados de livre comércio TTIP, CETA, TISA</p>
 									</section>
 								</div>
 								<div class="4u">
 									<section class="middle iconSection">
 										<a href="http://peticaopublica.com/pview.aspx?pi=PT80877"><i id="icon2" class="icon featured alt fa-pencil"></i></a>
 										<header>
-											<h2><a href="http://peticaopublica.com/pview.aspx?pi=PT80877">Assina</a></h2>
+											<h2><a href="http://peticaopublica.com/pview.aspx?pi=PT80877">Assina a petição</a></h2>
 										</header>
-										<p>A petição pelo debate sobre a ratificação do CETA na Assembleia da República</p>
+										<p>Pelo debate sobre a ratificação do CETA na Assembleia da República</p>
 									</section>
 								</div>
 								<div class="4u">
