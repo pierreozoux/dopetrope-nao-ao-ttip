@@ -39,7 +39,7 @@
 								</div>
 								<div class="4u">
 									<section class="last iconSection">
-										<a href="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">"><i id="icon3" class="icon featured alt2 fa-eur"></i></a>
+										<a href="#"><i id="icon3" class="icon featured alt2 fa-eur"></i></a>
 										<header>
                       <h2>Precisamos de ajuda!</h2>
 										</header>
