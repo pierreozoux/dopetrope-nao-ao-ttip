@@ -67,7 +67,7 @@
                   <li><a target="_blank" href="http://www.radiozero.pt/blog/tag/vidas-alternativas/" >Vidas Alternativas</a></li>
                   <li><a target="_blank" href="http://www.opusgay.org/" >Opus Gay</a></li>
                   <li><a target="_blank" href="http://artigo74.wordpress.com/" >Artigo 74 - Pelo Direito à Educação</a></li>
-                  <li><a target="_blank" href="www.gaia.org.pt" >O GAIA (Grupo de Acção e Intervenção Ambiental)</a></li>  
+                  <li><a target="_blank" href="http://www.gaia.org.pt" >O GAIA (Grupo de Acção e Intervenção Ambiental)</a></li>  
                   <li><a target="_blank" href="https://www.facebook.com/fabricadealternativas" >Fábrica de Alternativas</a></li>  
                   <li><a target="_blank" href="https://ansol.org/" >ANSOL</a></li>
                   <li><a target="_blank" href="http://www.spn.pt/" >SPN</a></li>
