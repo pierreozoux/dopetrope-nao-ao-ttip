@@ -75,6 +75,9 @@
                   <li><a target="_blank" href="http://www.spgl.pt/" >SPGL</a></li>
                   <li><a target="_blank" href="http://www.sprc.pt" >SPRC</a></li>
                   <li><a target="_blank" href="http://www.habita.info/" >Habita</a></li>
+                  <li><a target="_blank" href="https://climaximo.wordpress.com/" >Climaximo</a></li>
+                  <li><a target="_blank" href="http://www.stopogm.net/" >Plataforma Transgénicos FORA</a></li>
+
                 </ul>
               </section>
             </div>
