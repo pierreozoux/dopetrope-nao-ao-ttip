@@ -10,7 +10,7 @@
 					<!-- Banner -->
 						<section id="banner">
 
-              <a href="http://peticaopublica.com/pview.aspx?pi=PT80877"></a>
+              <a href="https://gio30.typeform.com/to/dxDluN"></a>
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
