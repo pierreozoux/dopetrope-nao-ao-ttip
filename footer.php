@@ -101,10 +101,10 @@
                   <li><a target="_blank" href="http://www.citizen.org/tafta">Public Citizen</a></li>
                   <li><a target="_blank" href="http://www.tni.org/category/issues-workarea/trade-investment/eu-trade-policy-ftas>">Transnational Institute</a></li>
                   <li><a target="_blank" href="https://www.facebook.com/tavira.emtransicao/info/?tab=page_info">Tavira Em Transição</a></li>
-                  <li><a target="_blank" href="https://www.plataformaongd.pt">Plataforma Portuguesa das ONGD</a></li>
-                  <li><a target="_blank" href="https://www.quinta7nomes.com">Quinta dos 7 Nomes</a></li>
+                  <li><a target="_blank" href="http://www.plataformaongd.pt">Plataforma Portuguesa das ONGD</a></li>
+                  <li><a target="_blank" href="http://www.quinta7nomes.com">Quinta dos 7 Nomes</a></li>
                   <li><a target="_blank" href="https://www.facebook.com/HortaComunitariaDoBarreiro">Horta Comunitária do Barreiro</a></li>
-                  <li><a target="_blank" href="https://www.palp.pt">Plataforma Algarve Livre de Petróleo</a></li>
+                  <li><a target="_blank" href="http://www.palp.pt">Plataforma Algarve Livre de Petróleo</a></li>
                   <li><a target="_blank" href="https://ave-ecologia.org/">Associação Vimaranense para a Ecologia</a></li>
                   
                 </ul>
