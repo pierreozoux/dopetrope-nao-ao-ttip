@@ -16,7 +16,7 @@
                   	/*'meta_type'   => 'DATE',*/
                   	'order'				=> 'DESC',  		
                     'cat' => get_eventos_cat_ID(),
-                    'posts_per_page' => 7
+                    'posts_per_page' => 3
                   );                  
                   $my_query = new WP_Query($args); ?>
                   
