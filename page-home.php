@@ -32,9 +32,9 @@
 									<section class="middle iconSection">
 										<a href="https://www.nao-ao-ttip.pt/zona-livre-do-ttip/"><i id="icon2" class="icon featured fa-map-marker"></i></a>
 										<header>
-											<h2><a href="https://www.nao-ao-ttip.pt/zona-livre-do-ttip/">Zona livre do TTIP/CETA/TISA</a></h2>
+											<h2><a href="https://www.nao-ao-ttip.pt/zona-livre-do-ttip/">Zona livre do TTIP</a></h2>
 										</header>
-										<p>Envia esta carta à tua Câmara Municipal e à tua Junta de Freguesia</p>
+										<p>Envia uma carta à tua Câmara Municipal e à tua Junta de Freguesia</p>
 									</section>
 								</div>
 								<div class="4u">
