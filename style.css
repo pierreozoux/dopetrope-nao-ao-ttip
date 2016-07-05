@@ -714,17 +714,43 @@ Text Domain: dopetrope
 
 	#banner
 	{
-		background: #FFF url('images/cetacheck.jpg');
+		/* background: #FFF url('images/cetacheck.jpg'); */
 		background-position: center center;
 		/*background-size: auto 100%;*/
 		background-repeat: no-repeat;
 		text-align: center;
 	}
-  #banner a {
+  #banner .container {
     display:block;
-    width:100%;
-    height:100%;
+    width:1200px;
+    height:444px;
+    margin:auto;
   }
+  
+  #banner .container a.left {
+    display:block;
+    float:left;
+    width:791px;
+    height:444px;
+    background: #FFF url('images/cetacheck_bloc-gauche.jpg');
+  }
+  #banner .container .container-right {
+    float:left;
+    width:409px;
+    height:444px;    
+  }
+  #banner .container a.right-top {
+    display:block;
+    width:409px;
+    height:222px;
+    background: #FFF url('images/cetacheck_bloc-droit-haut.jpg');
+  }
+  #banner .container a.right-bot {
+    display:block;
+    width:409px;
+    height:222px;
+    background: #FFF url('images/cetacheck_bloc-droit-bas.jpg');
+  }    
 
 		#banner header
 		{

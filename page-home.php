@@ -9,8 +9,15 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
+                          <div class="container">
+                            <a class="left" href="https://www.nao-ao-ttip.pt/ceta-check/"></a>            
+                            <div class="container-right">
+                              <a class="right-top" href="https://www.nao-ao-ttip.pt/o-que-e-o-ceta-check/"></a>
+                              <a class="right-bot" href="https://www.nao-ao-ttip.pt/ceta-check-a-video/"></a>
+                            </div>
+                          </div>
 
-              <a href="https://www.nao-ao-ttip.pt/ceta-check/"></a>
+              
 							<!--<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
