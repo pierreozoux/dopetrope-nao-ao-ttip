@@ -39,6 +39,55 @@
             <div class="4u">
               <section>
                 <header>
+                  <h2 id="ajuda">Newsletter</h2>
+                </header>              
+              <!--  Newsletter form -->
+				<script type="text/javascript">
+				//<![CDATA[
+				if (typeof newsletter_check !== "function") {
+				window.newsletter_check = function (f) {
+				    var re = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-]{1,})+\.)+([a-zA-Z0-9]{2,})+$/;
+				    if (!re.test(f.elements["ne"].value)) {
+				        alert("O email não está correcto");
+				        return false;
+				    }
+				    for (var i=1; i<20; i++) {
+				    if (f.elements["np" + i] && f.elements["np" + i].value == "") {
+				        alert("");
+				        return false;
+				    }
+				    }
+				    if (f.elements["ny"] && !f.elements["ny"].checked) {
+				        alert("Tem de aceitar o estatuto de privacidade");
+				        return false;
+				    }
+				    return true;
+				}
+				}
+				//]]>
+				</script>
+				
+				<div class="newsletter newsletter-subscription">
+				<form method="post" action="https://www.nao-ao-ttip.pt/wp-content/plugins/newsletter/do/subscribe.php" onsubmit="return newsletter_check(this)">
+				
+				<table cellspacing="0" cellpadding="3" border="0">
+				
+				<!-- email -->
+				<tr>
+				  <td align="left"><input class="newsletter-email" type="email" name="ne" size="30" required><br></td>
+				</tr>
+				
+				<tr>
+				  <td colspan="2" class="newsletter-td-submit">
+				    <input class="newsletter-submit" type="submit" value="Subscreve"/>
+				  </td>
+				</tr>
+				
+				</table>
+				</form>
+				</div>              
+              <br>
+                <header>
                   <h2 id="ajuda">Ajuda a informar</h2>
                 </header>
                 <a href="<?php bloginfo('template_directory'); ?>/flyers.zip" class="image featured"><img src="<?php bloginfo('template_directory'); ?>/images/telechflyer.jpg" alt="" /></a>
@@ -48,6 +97,7 @@
                 <footer>
                   <a href="<?php bloginfo('template_directory'); ?>/flyers.zip" class="button">Descarrega os flyers</a>
                 </footer>
+                <br>
               </section>
             </div>
           </div>
