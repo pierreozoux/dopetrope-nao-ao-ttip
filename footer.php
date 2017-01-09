@@ -127,6 +127,7 @@
                   <li><a target="_blank" href="http://www.habita.info/" >Habita</a></li>
                   <li><a target="_blank" href="https://climaximo.wordpress.com/" >Climaximo</a></li>
                   <li><a target="_blank" href="http://www.stopogm.net/" >Plataforma Transgénicos FORA</a></li>
+                  <li><a target="_blank" href="http://asmaa-algarve.org/en/" >ASMAA</a></li>
 
                 </ul>
               </section>
