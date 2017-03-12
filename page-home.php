@@ -9,19 +9,19 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-                          <div class="container">
-                            <a class="left" href="https://www.nao-ao-ttip.pt/ceta-check/"></a>            
+                          <!--  <div class="container">
+                            <a class="left" href="https://www.nao-ao-ttip.pt/ceta-check/"></a>
                             <div class="container-right">
                               <a class="right-top" href="https://www.nao-ao-ttip.pt/o-que-e-o-ceta-check/"></a>
                               <a class="right-bot" href="https://www.nao-ao-ttip.pt/ceta-check-a-video/"></a>
                             </div>
-                          </div>
+                          </div>-->
 
-              
-							<!--<header style="color: transparent; background-color: transparent;">
+
+							<header style="color: transparent; background-color: transparent;">
 								<h2 style="color: transparent;">Não ao Tratado Transatlântico</h2>
 								<p style="color: transparent;">Plataforma portuguesa para análise crítica ao TTIP</p>
-							</header>-->
+							</header>
 						</section>
 					<!-- Intro -->
 						<section id="intro" class="container">
@@ -57,9 +57,9 @@
                       <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                       <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                       </form>
-                      
+
                     </p>
-                    
+
 									</section>
 								</div>
 							</div>
@@ -71,8 +71,8 @@
 		<!-- Main -->
 			<div id="main-wrapper">
 				<div class="container">
-          
-          
+
+
 					<div class="row">
 						<div class="12u">
 							<!-- Blog / news -->
@@ -82,13 +82,13 @@
 									</header>
 									<div class="row">
                     <?php
-                     
+
                      /* $args = array(
                         'name' => 'programa-geral-de-semana-internacional-contra-o-ttip',
                       );
                       $my_query3 = new WP_Query($args);
                     if ($my_query3->have_posts()) {
-                    	$my_query3->the_post(); ?>										
+                    	$my_query3->the_post(); ?>
                       <div class="6u">
                         <section class="box news hp">
                           <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(575, 272)); ?></a>
@@ -102,8 +102,8 @@
                             </ul>
                           </footer>
                         </section>
-                      </div>                    
-                      <?php 
+                      </div>
+                      <?php
                     }*/
                     ?>
 										<?php
@@ -137,12 +137,12 @@
 											<ul class="actions">
 												<li><a href="<?php echo get_news_link(); ?>" class="button">Todas as notícias</a></li>
 											</ul>
-										</footer>                  
+										</footer>
 								</section>
 						</div>
 					</div>
-          
-          
+
+
 					<div class="row">
 						<div class="12u">
 							<!-- Flyers -->
