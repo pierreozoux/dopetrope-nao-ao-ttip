@@ -157,8 +157,6 @@
                   <li><a target="_blank" href="https://www.facebook.com/HortaComunitariaDoBarreiro">Horta Comunitária do Barreiro</a></li>
                   <li><a target="_blank" href="http://www.palp.pt">Plataforma Algarve Livre de Petróleo</a></li>
                   <li><a target="_blank" href="https://ave-ecologia.org/">Associação Vimaranense para a Ecologia</a></li>
-                  <li><a target="_blank" href="http://www.campoaberto.pt/">Campo Aberto</a></li>
-
                   
                 </ul>
               </section>

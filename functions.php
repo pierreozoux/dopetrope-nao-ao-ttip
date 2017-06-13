@@ -32,6 +32,10 @@
     return get_permalink(132);
   }
 
+  function get_first_flyer_ceta_link() {
+      return get_permalink(132);
+  }
+
   /*
   *
   * Return the detalhe URL
@@ -67,6 +71,24 @@
   */
   function get_flyer_parent_ID() {
     return 130;
+  }
+
+  function get_flyer_CETA_parent_ID()
+  {
+      $the_slug = 'os-perigos-do-ceta';
+      $args = array(
+          'name'        => $the_slug,
+          'post_type'   => 'page',
+          'post_status' => 'publish',
+          'numberposts' => 1
+      );
+      $my_posts = get_posts($args);
+      if( $my_posts )
+      {
+          return $my_posts[0]->ID;
+      } else {
+        return -1;
+      }
   }
   /*
   *
