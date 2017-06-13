@@ -148,7 +148,7 @@
 							<!-- Flyers -->
 								<section>
 									<header class="major">
-										<h2>Os perigos do Tratado Transatlântico (TTIP)</h2>
+										<h2>Os perigos do TTIP</h2>
 									</header>
 									<div class="row">
 										<!– WP LOOP STARTS/ENDS –>
@@ -156,7 +156,7 @@
 											$args = array(
 												'post_type' => 'page',
 												'post_parent' => get_flyer_parent_ID(),
-												'posts_per_page' => 6,
+												'posts_per_page' => 3,
 												'orderby' => 'rand',
 											);
 											$my_query = new WP_Query($args);
@@ -178,28 +178,48 @@
 										<?php endwhile; ?>
 										<!– WP LOOP STARTS/ENDS –>
 									</div>
-									<div class="row">
-										<!– WP LOOP STARTS/ENDS –>
-										<?php $my_query2 = new WP_Query('category_name=flyer&showposts=3&offset=3'); ?>
-										<?php while ($my_query2->have_posts()) : $my_query2->the_post(); ?>
-											<div class="4u">
-												<section class="box">
-													<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(367, 255)); ?></a>
-													<header>
-														<h3><?php the_title(); ?></h3>
-													</header>
-													<p><?php the_excerpt() ?></p>
-													<footer>
-														<a href="<?php the_permalink() ?>" class="button alt">Find out more</a>
-													</footer>
-												</section>
-											</div>
-										<?php endwhile; ?>
-										<!– WP LOOP STARTS/ENDS –>
-									</div>
 								</section>
 						</div>
 					</div>
+
+                    <div class="row">
+                        <div class="12u">
+                            <!-- Flyers -->
+                            <section>
+                                <header class="major">
+                                    <h2>Os perigos do CETA</h2>
+                                </header>
+                                <div class="row">
+                                    <!– WP LOOP STARTS/ENDS –>
+                                    <?php
+                                    $args = array(
+                                        'post_type' => 'page',
+                                        'post_parent' => get_flyer_CETA_parent_ID(),
+                                        'posts_per_page' => 3,
+                                        'orderby' => 'rand',
+                                    );
+                                    $my_query = new WP_Query($args);
+                                    $i=0;
+                                    ?>
+                                    <?php while ($my_query->have_posts()) : $my_query->the_post(); $i++?>
+                                        <div class="4u <?php if($i==4) echo " clear "; ?>">
+                                            <section class="box flyer-box <?php if($i>=4) echo " flyer-box2 "; ?>">
+                                                <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(367, 255)); ?></a>
+                                                <header>
+                                                    <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                                                </header>
+                                                <div class="flyer-txt"><?php the_excerpt() ?></div>
+                                                <footer>
+                                                    <a href="<?php the_permalink() ?>" class="button alt">ler mais</a>
+                                                </footer>
+                                            </section>
+                                        </div>
+                                    <?php endwhile; ?>
+                                    <!– WP LOOP STARTS/ENDS –>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
 
 				</div>
 			</div>
