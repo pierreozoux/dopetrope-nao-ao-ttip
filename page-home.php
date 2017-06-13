@@ -71,8 +71,6 @@
 		<!-- Main -->
 			<div id="main-wrapper">
 				<div class="container">
-
-
 					<div class="row">
 						<div class="12u">
 							<!-- Blog / news -->
@@ -81,37 +79,37 @@
 										<h2>Notícias</h2>
 									</header>
 									<div class="row">
-                    <?php
+                                    <?php
 
-                     /* $args = array(
-                        'name' => 'programa-geral-de-semana-internacional-contra-o-ttip',
-                      );
-                      $my_query3 = new WP_Query($args);
-                    if ($my_query3->have_posts()) {
-                    	$my_query3->the_post(); ?>
-                      <div class="6u">
-                        <section class="box news hp">
-                          <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(575, 272)); ?></a>
-                          <header>
-                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                          </header>
-                          <div class="excerpt-txt"><?php the_excerpt() ?></div>
-                          <footer>
-                            <ul class="actions">
-                              <li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">saber mais</a></li>
-                            </ul>
-                          </footer>
-                        </section>
-                      </div>
-                      <?php
-                    }*/
-                    ?>
+                                     /* $args = array(
+                                        'name' => 'programa-geral-de-semana-internacional-contra-o-ttip',
+                                      );
+                                      $my_query3 = new WP_Query($args);
+                                    if ($my_query3->have_posts()) {
+                                        $my_query3->the_post(); ?>
+                                      <div class="6u">
+                                        <section class="box news hp">
+                                          <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array(575, 272)); ?></a>
+                                          <header>
+                                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                                          </header>
+                                          <div class="excerpt-txt"><?php the_excerpt() ?></div>
+                                          <footer>
+                                            <ul class="actions">
+                                              <li><a href="<?php the_permalink() ?>" class="button icon fa-file-text">saber mais</a></li>
+                                            </ul>
+                                          </footer>
+                                        </section>
+                                      </div>
+                                      <?php
+                                    }*/
+                                    ?>
 										<?php
 											$args = array(
 												'cat' => get_news_cat_ID(),
 												'posts_per_page' => 8,
-                        'orderby' => 'date',
-                        'order'   => 'DESC',
+                                                'orderby' => 'date',
+                                                'order'   => 'DESC',
 												'post__not_in' => array( 3219, 3192 )
 											);
 											$my_query3 = new WP_Query($args);
@@ -148,14 +146,14 @@
 							<!-- Flyers -->
 								<section>
 									<header class="major">
-										<h2>Os perigos do TTIP</h2>
+										<h2>Os perigos do CETA</h2>
 									</header>
 									<div class="row">
 										<!– WP LOOP STARTS/ENDS –>
 										<?php
 											$args = array(
 												'post_type' => 'page',
-												'post_parent' => get_flyer_parent_ID(),
+												'post_parent' => get_flyer_CETA_parent_ID(),
 												'posts_per_page' => 3,
 												'orderby' => 'rand',
 											);
@@ -187,14 +185,14 @@
                             <!-- Flyers -->
                             <section>
                                 <header class="major">
-                                    <h2>Os perigos do CETA</h2>
+                                    <h2>Os perigos do TTIP</h2>
                                 </header>
                                 <div class="row">
                                     <!– WP LOOP STARTS/ENDS –>
                                     <?php
                                     $args = array(
                                         'post_type' => 'page',
-                                        'post_parent' => get_flyer_CETA_parent_ID(),
+                                        'post_parent' => get_flyer_parent_ID(),
                                         'posts_per_page' => 3,
                                         'orderby' => 'rand',
                                     );
