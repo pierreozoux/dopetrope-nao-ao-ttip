@@ -750,7 +750,12 @@ Text Domain: dopetrope
     width:409px;
     height:222px;
     background: #FFF url('images/cetacheck_bloc-droit-bas.jpg');
-  }    
+  }
+  .banner-link {
+	  display: block;
+	  width:100%;
+	  height:100%;
+  }
 
 		#banner header
 		{
