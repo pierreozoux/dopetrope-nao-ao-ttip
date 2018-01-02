@@ -9,7 +9,7 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-              <a href="https://www.nao-ao-ttip.pt/carta-a-enviar-aos-deputados-da-assembleia-da-republica/" class="banner-link"></a>
+              <a href="https://www.nao-ao-ttip.pt/presidente-ratificou-o-ceta/" class="banner-link"></a>
                           <!--  <div class="container">
                             <a class="left" href="https://www.nao-ao-ttip.pt/ceta-check/"></a>
                             <div class="container-right">
