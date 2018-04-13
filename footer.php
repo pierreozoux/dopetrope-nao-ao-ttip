@@ -174,7 +174,7 @@
                 <ul class="contact">
                   <li>
                     <h3>Email</h3>
-                    <p><a href="mailto:info@nao-ao-ttip.pt">info@nao-ao-ttip.pt</a></p>
+                    <p><a href="mailto:info@plataforma-troca.org">info@plataforma-troca.org</a></p>
                   </li>
                 </ul>
               </section>
