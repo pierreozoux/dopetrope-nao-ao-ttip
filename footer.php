@@ -181,6 +181,10 @@
                     <h3>Email</h3>
                     <p><a href="mailto:info@plataforma-troca.org">info@plataforma-troca.org</a></p>
                   </li>
+                  <li>
+                    <h3>Privacidade</h3>
+                    <p><a href="https://www.nao-ao-ttip.pt/termos-e-condicoes-gerais/">Termos e condicoes gerais</a></p>
+                  </li>
                 </ul>
               </section>
             </div>
