@@ -76,6 +76,11 @@
 				<tr>
 				  <td align="left"><input class="newsletter-email" type="email" name="ne" size="30" required><br></td>
 				</tr>
+          <tr>
+            <td>
+              <div class="tnp-field tnp-field-privacy"><label><input type="checkbox" name="ny" required class="tnp-privacy"> <a target="_blank" href=" http://www.nao-ao-ttip.pt/termos-e-condicoes-gerais/">Ao subscrever aceito os termos e condições gerais (RGPD compliant)</a></label></div>
+            </td>
+          </tr>
 				
 				<tr>
 				  <td colspan="2" class="newsletter-td-submit">
