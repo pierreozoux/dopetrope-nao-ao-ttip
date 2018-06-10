@@ -9,7 +9,7 @@
  get_header();?>
 					<!-- Banner -->
 						<section id="banner">
-              <a href="https://www.nao-ao-ttip.pt/presidente-ratificou-o-ceta/" class="banner-link"></a>
+              <a href="https://www.nao-ao-ttip.pt/peticao-mercosul/" class="banner-link"></a>
                           <!--  <div class="container">
                             <a class="left" href="https://www.nao-ao-ttip.pt/ceta-check/"></a>
                             <div class="container-right">
@@ -31,9 +31,9 @@
 									<section class="first iconSection">
 										<a href="https://gio30.typeform.com/to/dxDluN"><i id="icon1" class="icon featured fa-check-square-o"></i></a>
 										<header>
-											<h2><a href="https://gio30.typeform.com/to/dxDluN">Subscreva o manifesto</a></h2>
+											<h2><a href="https://www.nao-ao-ttip.pt/manifesto/">Manifesto da TROCA</a></h2>
 										</header>
-										<p>das Organizações da Sociedade Civil contra os tratados de livre comércio TTIP, CETA, TISA</p>
+										<p>Plataforma por um Comércio Internacional Justo</p>
 									</section>
 								</div>
 								<div class="4u">
